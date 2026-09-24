@@ -1,0 +1,389 @@
+[
+  {
+    "place_id": "__cover__",
+    "file": "assets/fukuoka-cover.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 1200,
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Hakata_Bay_from_Fukuoka_Tower_2.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Hakata_Bay_from_Fukuoka_Tower_2.jpg",
+    "sha256": "4616dec950e6cd4f73a668917e7237fe056222cb68920ce380e4fc1c5c2de1ac",
+    "source_dimensions": [
+      3985,
+      2989
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true
+  },
+  {
+    "place_id": "african-safari-jungle-bus",
+    "file": "assets/kyushu-safari.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1040,
+    "height": 694,
+    "download_url": "https://africansafari.co.jp/wp-content/themes/safari/img/animals/lion/01.jpg",
+    "source_page": "https://africansafari.co.jp/lion/",
+    "sha256": "c4de44866c5f4b3921061d828b306854de569c50494afaf555b308b55a2959a2",
+    "reused_from_place_id": "kyushu-safari"
+  },
+  {
+    "place_id": "akizuki-kuro-mon",
+    "file": "assets/akizuki-kuro-mon.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 1200,
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg/1920px-Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg",
+    "sha256": "9115c0db209ccd03e3cb64171b74b70cd43dc64734e2e1656cb1ce5cc2fa6d58",
+    "source_dimensions": [
+      1920,
+      1440
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true
+  },
+  {
+    "place_id": "akizuki-old-town-autumn-stroll",
+    "file": "assets/akizuki-kuro-mon.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 1200,
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg/1920px-Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg",
+    "sha256": "9115c0db209ccd03e3cb64171b74b70cd43dc64734e2e1656cb1ce5cc2fa6d58",
+    "source_dimensions": [
+      1920,
+      1440
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true,
+    "reused_from_place_id": "akizuki-kuro-mon"
+  },
+  {
+    "place_id": "canal-city-hakata",
+    "file": "assets/canal-city-hakata.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 1065,
+    "download_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12311/responsive_images/l7umvaH6jaUSTb8qqYGzijb0BtLtIwnyK4jlWpfh__1690_1125.jpg",
+    "source_page": "https://www.crossroadfukuoka.jp/spot/12311",
+    "sha256": "abbb73e153a2c0dad3e4c6370e8187a24e30b096367022ef387be89e62a5023d",
+    "source_dimensions": [
+      1690,
+      1125
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true
+  },
+  {
+    "place_id": "daitouen-honten",
+    "file": "assets/daitouen-honten.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 900,
+    "download_url": "https://ssl.daitoen.com/umakamon/img/online-shop-image-1920-1080.jpg",
+    "source_page": "https://ssl.daitoen.com/umakamon/index.html",
+    "sha256": "bca478cd64dc91effa0bc7672bf748b913197781d1be3ad8eebec916383a78d0",
+    "source_dimensions": [
+      1920,
+      1080
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true
+  },
+  {
+    "place_id": "fukuoka-tower",
+    "file": "assets/fukuoka-tower.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 1067,
+    "download_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12343/responsive_images/SAxmmmdWWIej8TyNvd4q3jPwnRpk9GNaVew9Cksm__1756_1171.jpg",
+    "source_page": "https://www.crossroadfukuoka.jp/en/spot/12343",
+    "sha256": "5ea0f90c658a277ddc2f12333192de0bba509fd4f0eba42850900af5ec59c09a",
+    "source_dimensions": [
+      1756,
+      1171
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true
+  },
+  {
+    "place_id": "futamigaura-coast-photo-stop",
+    "file": "assets/sakurai-futamigaura.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 1066,
+    "download_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12456/responsive_images/UGsPNWIU7TfWj7gUjgZ3nAD2re0pEwCKCbhvfQIb__1673_1115.jpg",
+    "source_page": "https://www.crossroadfukuoka.jp/en/spot/12456",
+    "sha256": "dc1165d1ca23bb83a91873ef48b94e29dde982f130b4f4030358118ae5233ab1",
+    "source_dimensions": [
+      1673,
+      1115
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true,
+    "reused_from_place_id": "sakurai-futamigaura"
+  },
+  {
+    "place_id": "hanamidori-tenjin",
+    "file": "assets/hanamidori-tenjin.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 900,
+    "height": 700,
+    "download_url": "https://www.hanamidori.net/img/store/tenjin_naikan01.jpg",
+    "source_page": "https://www.hanamidori.net/stores/0927385583/",
+    "sha256": "c4cd0e4bec9ef83b4b88d4430ab7340a8251e4acf79b51310b084bed9ac51271"
+  },
+  {
+    "place_id": "hyaku-shiki-robata",
+    "file": "assets/hyaku-shiki-robata.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1022,
+    "height": 700,
+    "download_url": "https://hyaku-shiki.com/html/template/default/assets/img/top/mainimg_img.jpg",
+    "source_page": "https://hyaku-shiki.com/",
+    "sha256": "b4dd13ddd0b4520f5bd6d779056a4f9d77af340a590bb80f56fccd5051c04a94"
+  },
+  {
+    "place_id": "hyotan-sushi-tenjin",
+    "file": "assets/hyotan-sushi-tenjin.jpg",
+    "source_page": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%82%87%E3%81%86%E3%81%9F%E3%82%93%E5%AF%BF%E5%8F%B8%20%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1",
+    "download_url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPIOx-W00NLrrODZE2hTMyQA3idHyoZWCAksjdo2o1j-crlK9hwIlGsyWsCE1VVxa8lZz9eBkv5qoktnTvMQEDYAyP7dhL4PgrCtA9DHOKGaiWP7zrt0-KjrxyRdp_JSf1jRaRhjzdEFeTf=w408-h544-k-no",
+    "sha256": "a2c96182d1b592534a17b87f0dd62cb868aacc70e80dcfab643852aa9b98fe92",
+    "evidence_file": "qa/evidence/hyotan-acquisition-manifest.json",
+    "acquisition_note": "Actual Google Maps browser pageAssets acquisition manifest and exact source URL copied alongside the received image bytes.",
+    "status": "cached",
+    "acquisition_method": "local_import",
+    "network_verified": false,
+    "width": 408,
+    "height": 544,
+    "imported_at": "2026-09-24T02:45:41.169529+00:00",
+    "resolution_warning": "Low resolution accepted in standard mode; do not replace solely for dimensions."
+  },
+  {
+    "place_id": "ichifuji-tenjin",
+    "file": "assets/ichifuji-tenjin.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1497,
+    "height": 631,
+    "download_url": "https://www.ichifuji-f.jp/wp-content/themes/tenjin/common/images/top_middle_img01_en.jpg",
+    "source_page": "https://www.ichifuji-f.jp/nishidori/",
+    "sha256": "818f263bc907468b62e6e3d6e2e4311ac66389fc9aff50744a55f19634133a9a"
+  },
+  {
+    "place_id": "ichiran-tenjin-nishidori",
+    "file": "assets/ichiran-tenjin-nishidori.jpg",
+    "status": "cached",
+    "mime_type": "image/png",
+    "width": 960,
+    "height": 640,
+    "download_url": "https://ichiran.com/shop/img/nsdr_exterior.png",
+    "source_page": "https://ichiran.com/shop/kyushu/tenjin-nishidori/",
+    "sha256": "93104fd9694ac102b84e02beb94120d825fdc2379030b93c23a1bc337c7667ad"
+  },
+  {
+    "place_id": "kyushu-safari",
+    "file": "assets/kyushu-safari.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1040,
+    "height": 694,
+    "download_url": "https://africansafari.co.jp/wp-content/themes/safari/img/animals/lion/01.jpg",
+    "source_page": "https://africansafari.co.jp/lion/",
+    "sha256": "c4de44866c5f4b3921061d828b306854de569c50494afaf555b308b55a2959a2"
+  },
+  {
+    "place_id": "mojiko-retro",
+    "file": "assets/mojiko-retro.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 860,
+    "height": 645,
+    "download_url": "https://kitakyushucity.guide/files/Spots/25d39180-e999-45c5-bedd-f17f057ad709/01.jpg",
+    "source_page": "https://kitakyushucity.guide/spots/detail/91cbb93c-1e56-4cf3-b348-406cc8eebefa",
+    "sha256": "ed67f686568cb8a3678b0c8c8f3b7785e046c1b3e0bffbe078775c11b66987f1"
+  },
+  {
+    "place_id": "mojiko-retro-waterfront-walk",
+    "file": "assets/mojiko-retro.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 860,
+    "height": 645,
+    "download_url": "https://kitakyushucity.guide/files/Spots/25d39180-e999-45c5-bedd-f17f057ad709/01.jpg",
+    "source_page": "https://kitakyushucity.guide/spots/detail/91cbb93c-1e56-4cf3-b348-406cc8eebefa",
+    "sha256": "ed67f686568cb8a3678b0c8c8f3b7785e046c1b3e0bffbe078775c11b66987f1",
+    "reused_from_place_id": "mojiko-retro"
+  },
+  {
+    "place_id": "ohori-park",
+    "file": "assets/ohori-park.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 1066,
+    "download_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12492/responsive_images/kp03BxiEaJdH1GyUydjSJUflvgSHCWUuWUUrBxao__1673_1115.jpg",
+    "source_page": "https://www.crossroadfukuoka.jp/en/spot/12492",
+    "sha256": "a42ed86615d81e2599ee75d0d44a5c7e145017e730d26d473ebe5e0fa44e3e03",
+    "source_dimensions": [
+      1673,
+      1115
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true
+  },
+  {
+    "place_id": "ooyama-kitte-hakata",
+    "file": "assets/ooyama-kitte-hakata.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1200,
+    "height": 630,
+    "download_url": "https://www.motu-ooyama.com/wp/wp-content/themes/motu-ooyama/common/images/ogp.jpg",
+    "source_page": "https://www.motu-ooyama.com/shop/kittehakata/",
+    "sha256": "79147f86d2ccf7f2d5bfc12f900123b308d86d7f005f75660752fd6761239ea3"
+  },
+  {
+    "place_id": "sakurai-futamigaura",
+    "file": "assets/sakurai-futamigaura.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 1066,
+    "download_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12456/responsive_images/UGsPNWIU7TfWj7gUjgZ3nAD2re0pEwCKCbhvfQIb__1673_1115.jpg",
+    "source_page": "https://www.crossroadfukuoka.jp/en/spot/12456",
+    "sha256": "dc1165d1ca23bb83a91873ef48b94e29dde982f130b4f4030358118ae5233ab1",
+    "source_dimensions": [
+      1673,
+      1115
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true
+  },
+  {
+    "place_id": "sapporo-kani-fukuoka-nanokawa",
+    "file": "assets/sapporo-kani-fukuoka-nanokawa.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 800,
+    "height": 533,
+    "download_url": "https://www.kani-honke.co.jp/img/locations/fukuoka/01.jpg",
+    "source_page": "https://kani-honke.co.jp/location_fukuoka.html",
+    "sha256": "d2b59a092f4ddf0542848ac197a5183b8e2d5036c190ab926301011c6e572345"
+  },
+  {
+    "place_id": "shinshin-tenjin",
+    "file": "assets/shinshin-tenjin.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 360,
+    "height": 245,
+    "download_url": "https://www.hakata-shinshin.com/wordpress/wp-content/uploads/2013/12/tenpo01_photo.jpg",
+    "source_page": "https://www.hakata-shinshin.com/tenpo_tenjin",
+    "sha256": "a4d800c40796a43d3fff8c7008c6dc3ece01e02b0ff29232b2c5bd8f0395b478",
+    "resolution_warning": "Low resolution accepted in standard mode; do not replace solely for dimensions."
+  },
+  {
+    "place_id": "tenichi-yatai-local-evening",
+    "file": "assets/tenichi-yatai.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 960,
+    "height": 720,
+    "download_url": "https://gofukuoka.jp/files/Spots/fe066526-c0d5-438f-a182-24178253f9a3/image/0f2618d32d0d33fa6f47d3fbb10f4c55.jpg",
+    "source_page": "https://gofukuoka.jp/spots/detail/yatai122517",
+    "sha256": "eb264ae0a74f5b62cae2ab191a2c201b73619e0c0a413897ea013933b6a5f2b2"
+  },
+  {
+    "place_id": "tenjin-underground-mall",
+    "file": "assets/tenjin-underground-mall.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1593,
+    "height": 767,
+    "download_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12308/responsive_images/McenWsl2YEeXoI4STRMpfO967vISQy2d66NF8fkd__1593_767.jpg",
+    "source_page": "https://www.crossroadfukuoka.jp/spot/12308",
+    "sha256": "c3c4b8cb47c51710cb83ce5db3df984e365d73e7b93b85f92c9c3a3e4e46dac0"
+  },
+  {
+    "place_id": "toriden-hakata-honten",
+    "file": "assets/toriden-hakata-honten.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 240,
+    "height": 240,
+    "download_url": "https://toriden.com/images/index/menu_04.jpg",
+    "source_page": "https://toriden.com/",
+    "sha256": "662b054ba7acb218f7aeac4401bdeb7ba65de7bb24f7689190c0a6596aec21de",
+    "resolution_warning": "Low resolution accepted in standard mode; do not replace solely for dimensions."
+  },
+  {
+    "place_id": "umi-jigoku",
+    "file": "assets/umi-jigoku.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 640,
+    "height": 427,
+    "download_url": "https://www.umijigoku.co.jp/info/gallery/img/content4.jpg",
+    "source_page": "https://www.umijigoku.co.jp/info/gallery/",
+    "sha256": "c75c8b48b9e09817d1a7b60b5e275f52588953007dd23b82c92952757897ec2c"
+  },
+  {
+    "place_id": "yanagibashi-market",
+    "file": "assets/yanagibashi-market.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 1067,
+    "download_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12640/responsive_images/6OadxF8txeM3TYT3E06zgXriaTPpedArm2QlgkX0__1603_1069.jpg",
+    "source_page": "https://www.crossroadfukuoka.jp/spot/12640",
+    "sha256": "0adc69143b6f6900ce2f6cf98e6552f1098d8cd602746e7e2719a62fbecd2894",
+    "source_dimensions": [
+      1603,
+      1069
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true
+  },
+  {
+    "place_id": "yanagibashi-market-food-culture",
+    "file": "assets/yanagibashi-market.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 1600,
+    "height": 1067,
+    "download_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12640/responsive_images/6OadxF8txeM3TYT3E06zgXriaTPpedArm2QlgkX0__1603_1069.jpg",
+    "source_page": "https://www.crossroadfukuoka.jp/spot/12640",
+    "sha256": "0adc69143b6f6900ce2f6cf98e6552f1098d8cd602746e7e2719a62fbecd2894",
+    "source_dimensions": [
+      1603,
+      1069
+    ],
+    "delivery_resized": true,
+    "delivery_optimized": true,
+    "reused_from_place_id": "yanagibashi-market"
+  },
+  {
+    "place_id": "yusentei-garden",
+    "file": "assets/yusentei-garden.jpg",
+    "status": "cached",
+    "mime_type": "image/jpeg",
+    "width": 280,
+    "height": 192,
+    "download_url": "https://yusentei.fukuoka-teien.com/wp_home/wp-content/uploads/%E9%A2%A8%E9%88%B4%E9%80%9A1-280x192.jpg",
+    "source_page": "https://yusentei.fukuoka-teien.com/information/",
+    "sha256": "1b1fee6bdc7a74e5720b12ff470e221bb625f75fac64899b2938e9630b3069d4",
+    "resolution_warning": "Low resolution accepted in standard mode; do not replace solely for dimensions."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "day": 1,
+  "image": "workbench-fukuoka-2026-11\\qa\\offline-overview\\review-font-test\\day-1\\day-1-overview.png",
+  "sha256": "12c825cfe3ac21c14ffdd35282401421cfcbddb40f19d716f6445e96b389a256",
+  "capture_fingerprint": "a600f1cc00aa713f33eab7d3c72228e762f88037a84e557df5bbdf0226ffd670",
+  "background_file": "workbench-fukuoka-2026-11\\qa\\offline-overview\\backgrounds\\day-1.osm",
+  "background_sha256": "14bebcdca5300521c7617483c326883a763373182d26427c9eab9863712eeba4",
+  "background_features": 29,
+  "attribution": "© OpenStreetMap contributors",
+  "markers_displaced": false,
+  "visual_reviewed": false,
+  "integrated_into_handbook": false
+}

@@ -1,0 +1,17 @@
+{
+  "day": 1,
+  "image": "G:\\旅遊手冊\\workbench-fukuoka-2026-11\\qa\\offline-overview\\review-traditional-v2\\day-1\\day-1-overview.png",
+  "sha256": "b9422984e5a60beb9b2af9807339738b384e97285a3eca0f2e596cde30cbdab9",
+  "capture_fingerprint": "a600f1cc00aa713f33eab7d3c72228e762f88037a84e557df5bbdf0226ffd670",
+  "background_file": "G:\\旅遊手冊\\workbench-fukuoka-2026-11\\qa\\offline-overview\\backgrounds\\day-1.osm",
+  "background_sha256": "14bebcdca5300521c7617483c326883a763373182d26427c9eab9863712eeba4",
+  "background_features": 29,
+  "attribution": "© OpenStreetMap contributors",
+  "markers_displaced": false,
+  "visual_reviewed": true,
+  "integrated_into_handbook": false,
+  "review_note": "已逐張檢視繁體中文地圖原尺寸與 390px 手機寬度預覽；所有停靠點依核實座標呈現，編號與行程順序相符，順序箭頭、繁體中文地名、地理背景及 OpenStreetMap 署名清楚。密集市區標籤以引線避讓後仍可辨識。",
+  "image_sha256": "b9422984e5a60beb9b2af9807339738b384e97285a3eca0f2e596cde30cbdab9",
+  "phone_preview_sha256": "9f4999d1274260026b00f8a735e10a1b466d0fc738f3c52a2a09b6ff9e5a3794",
+  "reviewed_at": "2026-09-24"
+}

@@ -1,0 +1,11 @@
+PACK VALID framing
+PACK VALID places-core
+PACK VALID places-shopping
+PACK VALID places-experiences
+PACK VALID places-food
+PACK VALID itinerary
+PACK VALID modules-discovery
+PACK VALID modules-practical
+PACK VALID modules-language-notes
+PASS destination dataset is complete enough to render into the canonical product frame
+PASS compiled validated profile: G:\旅遊手冊\workbench-fukuoka-2026-11\destination-profile.json

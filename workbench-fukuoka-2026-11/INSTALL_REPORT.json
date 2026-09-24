@@ -1,0 +1,8 @@
+{
+  "install_method": "official_installer",
+  "ui_system": "current-system",
+  "canonical_index_sha256": "12deadd5d8dac043e52ea454a530ca16903265584f55ad11ee2d1f44c0f7e4a2",
+  "installed_index_sha256": "12deadd5d8dac043e52ea454a530ca16903265584f55ad11ee2d1f44c0f7e4a2",
+  "canonical_template_installed": true,
+  "custom_page_builder_detected": false
+}

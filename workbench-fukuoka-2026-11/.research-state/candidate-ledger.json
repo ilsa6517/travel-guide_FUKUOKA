@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "destination": "Fukuoka",
+  "current_pack": "modules-practical",
+  "candidates": {
+    "sakurai-futamigaura": {
+      "status": "keep",
+      "family": "sights",
+      "source_url": "https://www.crossroadfukuoka.jp/en/spot/12456",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E7%B3%B8%E5%B3%B6%20%E6%A1%9C%E4%BA%95%E4%BA%8C%E8%A6%8B%E3%83%B6%E6%B5%A6",
+      "image_source_url": "https://www.crossroadfukuoka.jp/en/spot/12456",
+      "image_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12456/responsive_images/UGsPNWIU7TfWj7gUjgZ3nAD2re0pEwCKCbhvfQIb__1673_1115.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "kyushu-safari": {
+      "status": "keep",
+      "family": "sights",
+      "source_url": "https://africansafari.co.jp/information/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%B7%9E%E8%87%AA%E7%84%B6%E5%8B%95%E7%89%A9%E5%85%AC%E5%9C%92%20%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E3%83%B3%E3%82%B5%E3%83%95%E3%82%A1%E3%83%AA",
+      "image_source_url": "https://africansafari.co.jp/lion/",
+      "image_url": "https://africansafari.co.jp/wp-content/themes/safari/img/animals/lion/01.jpg",
+      "note": "Source context reviewed; selected an exact official body photo instead of the prior mismatched promotional asset."
+    },
+    "umi-jigoku": {
+      "status": "keep",
+      "family": "sights",
+      "source_url": "https://www.umijigoku.co.jp/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E5%88%A5%E5%BA%9C%20%E6%B5%B7%E5%9C%B0%E7%8D%84",
+      "image_source_url": "https://www.umijigoku.co.jp/info/gallery/",
+      "image_url": "https://www.umijigoku.co.jp/info/gallery/img/content4.jpg",
+      "note": "Source context reviewed; selected an exact official body photo instead of the prior mismatched promotional asset."
+    },
+    "akizuki-kuro-mon": {
+      "status": "keep",
+      "family": "sights",
+      "source_url": "https://www.crossroadfukuoka.jp/spot/12807",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E6%9C%88%E5%9F%8E%E8%B7%A1%20%E9%BB%92%E9%96%80",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg/1920px-Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "yusentei-garden": {
+      "status": "keep",
+      "family": "sights",
+      "source_url": "https://yusentei.fukuoka-teien.com/information/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E5%8F%8B%E6%B3%89%E4%BA%AD%E5%85%AC%E5%9C%92%20%E7%A6%8F%E5%B2%A1",
+      "image_source_url": "https://yusentei.fukuoka-teien.com/information/",
+      "image_url": "https://yusentei.fukuoka-teien.com/wp_home/wp-content/uploads/%E9%A2%A8%E9%88%B4%E9%80%9A1-280x192.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "fukuoka-tower": {
+      "status": "keep",
+      "family": "sights",
+      "source_url": "https://www.crossroadfukuoka.jp/en/spot/12343",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%E3%82%BF%E3%83%AF%E3%83%BC%20%E7%A6%8F%E5%B2%A1%E5%B8%82",
+      "image_source_url": "https://www.crossroadfukuoka.jp/en/spot/12343",
+      "image_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12343/responsive_images/SAxmmmdWWIej8TyNvd4q3jPwnRpk9GNaVew9Cksm__1756_1171.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "ohori-park": {
+      "status": "keep",
+      "family": "sights",
+      "source_url": "https://www.crossroadfukuoka.jp/en/spot/12492",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92%20%E7%A6%8F%E5%B2%A1%E5%B8%82",
+      "image_source_url": "https://www.crossroadfukuoka.jp/en/spot/12492",
+      "image_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12492/responsive_images/kp03BxiEaJdH1GyUydjSJUflvgSHCWUuWUUrBxao__1673_1115.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "mojiko-retro": {
+      "status": "keep",
+      "family": "sights",
+      "source_url": "https://kitakyushucity.guide/spots/detail/91cbb93c-1e56-4cf3-b348-406cc8eebefa",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E9%96%80%E5%8F%B8%E6%B8%AF%E3%83%AC%E3%83%88%E3%83%AD%20%E5%8C%97%E4%B9%9D%E5%B7%9E%E5%B8%82",
+      "image_source_url": "https://kitakyushucity.guide/spots/detail/91cbb93c-1e56-4cf3-b348-406cc8eebefa",
+      "image_url": "https://kitakyushucity.guide/files/Spots/25d39180-e999-45c5-bedd-f17f057ad709/01.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "fukuoka-airport": {
+      "status": "keep",
+      "family": "support",
+      "source_url": "https://www.fukuoka-airport.jp/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=Fukuoka%20Airport%20%E7%A6%8F%E5%B2%A1%E7%A9%BA%E6%B8%AF",
+      "image_source_url": null,
+      "image_url": null,
+      "note": "transport/event node or researched text-only product; see recorded source outcomes where applicable"
+    },
+    "kitakyushu-airport": {
+      "status": "keep",
+      "family": "support",
+      "source_url": "https://www.kitakyu-air.jp/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=Kitakyushu%20Airport%20%E5%8C%97%E4%B9%9D%E5%B7%9E%E7%A9%BA%E6%B8%AF",
+      "image_source_url": null,
+      "image_url": null,
+      "note": "transport/event node or researched text-only product; see recorded source outcomes where applicable"
+    },
+    "mizuho-paypay-dome-fukuoka": {
+      "status": "keep",
+      "family": "support",
+      "source_url": "https://www.softbankhawks.co.jp/stadium/institution.html",
+      "coordinate_source_url": "https://maps.loco.yahoo.co.jp/maps?lat=33.5953725&lon=130.362073&mode=map&z=18",
+      "image_source_url": null,
+      "image_url": null,
+      "note": "transport/event node or researched text-only product; see recorded source outcomes where applicable"
+    },
+    "tenjin-underground-mall": {
+      "status": "keep",
+      "family": "shops",
+      "source_url": "https://www.crossroadfukuoka.jp/spot/12308",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%A5%9E%E5%9C%B0%E4%B8%8B%E8%A1%97%20%E7%A6%8F%E5%B2%A1%E5%B8%82",
+      "image_source_url": "https://www.crossroadfukuoka.jp/spot/12308",
+      "image_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12308/responsive_images/McenWsl2YEeXoI4STRMpfO967vISQy2d66NF8fkd__1593_767.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "canal-city-hakata": {
+      "status": "keep",
+      "family": "shops",
+      "source_url": "https://www.crossroadfukuoka.jp/spot/12311",
+      "coordinate_source_url": "https://www.google.com/maps/place/%E5%8D%9A%E5%A4%9A%E9%81%8B%E6%B2%B3%E5%9F%8E/@33.5896305,130.4109478,17z/data=!3m1!4b1!4m6!3m5!1s0x354191958981c361:0xe0edba177a7419d1!8m2!3d33.5896305!4d130.4109478!16s%2Fm%2F04zxt4t",
+      "image_source_url": "https://www.crossroadfukuoka.jp/spot/12311",
+      "image_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12311/responsive_images/l7umvaH6jaUSTb8qqYGzijb0BtLtIwnyK4jlWpfh__1690_1125.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "yanagibashi-market": {
+      "status": "keep",
+      "family": "shops",
+      "source_url": "https://www.crossroadfukuoka.jp/spot/12640",
+      "coordinate_source_url": "https://www.google.com/maps/place/%E6%9F%B3%E6%A9%8B%E9%80%A3%E5%90%88%E5%B8%82%E5%A0%B4/@33.5829794,130.4084273,17z/data=!3m1!4b1!4m6!3m5!1s0x35419199b31f1771:0x1478807086d83fe4!8m2!3d33.5829794!4d130.4084273!16s%2Fg%2F121d1tmd",
+      "image_source_url": "https://www.crossroadfukuoka.jp/spot/12640",
+      "image_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12640/responsive_images/6OadxF8txeM3TYT3E06zgXriaTPpedArm2QlgkX0__1603_1069.jpg",
+      "note": "Source context reviewed; selected an exact official body photo instead of the prior mismatched promotional asset."
+    },
+    "souvenir-hakata-torimon": {
+      "status": "keep_text_only",
+      "family": "souvenirs",
+      "source_url": "https://www.meigetsudo.co.jp/i/1724",
+      "coordinate_source_url": null,
+      "image_source_url": null,
+      "image_url": null,
+      "note": "Product recommendations retained with buying advice; no exact image with verified reuse basis after bounded official plus alternate source review.",
+      "attempted_sources": [
+        {
+          "url": "https://www.meigetsudo.co.jp/i/1724",
+          "result": "official exact-product page checked; no reusable permitted product image bound into guide"
+        },
+        {
+          "url": "https://www.anafesta.com/assets/images/products/23_0945_01.jpg",
+          "result": "reputable retailer exact-product photo candidate; reuse permission not established; retained text-only"
+        }
+      ]
+    },
+    "souvenir-yamaya-mentaiko": {
+      "status": "keep_text_only",
+      "family": "souvenirs",
+      "source_url": "https://www.yamaya.com/products/detail/31240",
+      "coordinate_source_url": null,
+      "image_source_url": null,
+      "image_url": null,
+      "note": "Product recommendations retained with buying advice; no exact image with verified reuse basis after bounded official plus alternate source review.",
+      "attempted_sources": [
+        {
+          "url": "https://www.yamaya.com/products/detail/31240",
+          "result": "official exact-product page checked; no reusable permitted product image bound into guide"
+        },
+        {
+          "url": "https://umakamon.city.fukuoka.lg.jp/store/8801/",
+          "result": "official Fukuoka food listing checked; no exact reusable product image established; retained text-only"
+        }
+      ]
+    },
+    "souvenir-yame-tea": {
+      "status": "keep_text_only",
+      "family": "souvenirs",
+      "source_url": "https://www.yame-tea.jp/item/a001/",
+      "coordinate_source_url": null,
+      "image_source_url": null,
+      "image_url": null,
+      "note": "Product recommendations retained with buying advice; no exact image with verified reuse basis after bounded official plus alternate source review.",
+      "attempted_sources": [
+        {
+          "url": "https://www.yame-tea.jp/item/a001/",
+          "result": "official exact-product page checked; reuse permission for product photography not established"
+        },
+        {
+          "url": "https://store.shopping.yahoo.co.jp/yamecha/",
+          "result": "official-brand exact-product candidate checked; reuse permission not established; retained text-only"
+        }
+      ]
+    },
+    "souvenir-tirolian": {
+      "status": "keep_text_only",
+      "family": "souvenirs",
+      "source_url": "https://www.chidoriya.co.jp/brand/tirolian/",
+      "coordinate_source_url": null,
+      "image_source_url": null,
+      "image_url": null,
+      "note": "Product recommendations retained with buying advice; no exact image with verified reuse basis after bounded official plus alternate source review.",
+      "attempted_sources": [
+        {
+          "url": "https://www.chidoriya.co.jp/brand/tirolian/",
+          "result": "official product/brand page checked"
+        },
+        {
+          "url": "https://www.chidoriya.co.jp/shop/",
+          "result": "official shop product image candidate checked; reuse permission not established; retained text-only"
+        }
+      ]
+    },
+    "futamigaura-coast-photo-stop": {
+      "status": "keep",
+      "family": "experiences",
+      "source_url": "https://www.crossroadfukuoka.jp/en/spot/12456",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E7%B3%B8%E5%B3%B6%20%E6%A1%9C%E4%BA%95%E4%BA%8C%E8%A6%8B%E3%83%B6%E6%B5%A6",
+      "image_source_url": "https://www.crossroadfukuoka.jp/en/spot/12456",
+      "image_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12456/responsive_images/UGsPNWIU7TfWj7gUjgZ3nAD2re0pEwCKCbhvfQIb__1673_1115.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "african-safari-jungle-bus": {
+      "status": "keep",
+      "family": "experiences",
+      "source_url": "https://africansafari.co.jp/jungle-bus/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%B7%9E%E8%87%AA%E7%84%B6%E5%8B%95%E7%89%A9%E5%85%AC%E5%9C%92%20%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E3%83%B3%E3%82%B5%E3%83%95%E3%82%A1%E3%83%AA",
+      "image_source_url": "https://africansafari.co.jp/lion/",
+      "image_url": "https://africansafari.co.jp/wp-content/themes/safari/img/animals/lion/01.jpg",
+      "note": "Source context reviewed; selected an exact official body photo instead of the prior mismatched promotional asset."
+    },
+    "akizuki-old-town-autumn-stroll": {
+      "status": "keep",
+      "family": "experiences",
+      "source_url": "https://www.crossroadfukuoka.jp/spot/12807",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E6%9C%88%E5%9F%8E%E8%B7%A1%20%E9%BB%92%E9%96%80",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg/1920px-Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "mojiko-retro-waterfront-walk": {
+      "status": "keep",
+      "family": "experiences",
+      "source_url": "https://kitakyushucity.guide/spots/detail/91cbb93c-1e56-4cf3-b348-406cc8eebefa",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E9%96%80%E5%8F%B8%E6%B8%AF%E3%83%AC%E3%83%88%E3%83%AD",
+      "image_source_url": "https://kitakyushucity.guide/spots/detail/91cbb93c-1e56-4cf3-b348-406cc8eebefa",
+      "image_url": "https://kitakyushucity.guide/files/Spots/25d39180-e999-45c5-bedd-f17f057ad709/01.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "yanagibashi-market-food-culture": {
+      "status": "keep",
+      "family": "experiences",
+      "source_url": "https://www.crossroadfukuoka.jp/spot/12640",
+      "coordinate_source_url": "https://www.google.com/maps/place/%E6%9F%B3%E6%A9%8B%E9%80%A3%E5%90%88%E5%B8%82%E5%A0%B4/@33.5829794,130.4084273,17z/data=!3m1!4b1!4m6!3m5!1s0x35419199b31f1771:0x1478807086d83fe4!8m2!3d33.5829794!4d130.4084273!16s%2Fg%2F121d1tmd",
+      "image_source_url": "https://www.crossroadfukuoka.jp/spot/12640",
+      "image_url": "https://www.crossroadfukuoka.jp/storage/tourism_attractions/12640/responsive_images/6OadxF8txeM3TYT3E06zgXriaTPpedArm2QlgkX0__1603_1069.jpg",
+      "note": "Source context reviewed; selected an exact official body photo instead of the prior mismatched promotional asset."
+    },
+    "tenichi-yatai-local-evening": {
+      "status": "keep",
+      "family": "experiences",
+      "source_url": "https://gofukuoka.jp/spots/detail/yatai122517",
+      "coordinate_source_url": "https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d3323.522748081967%212d130.3964767762507%213d33.59173864190481%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x3541918e420f6577%3A0xf0b0b8985a4c58b8%212z5aSp5LiA%215e0%213m2%211sja%212sjp%214v1688392688441%215m2%211sja%212sjp",
+      "image_source_url": "https://gofukuoka.jp/spots/detail/yatai122517",
+      "image_url": "https://gofukuoka.jp/files/Spots/fe066526-c0d5-438f-a182-24178253f9a3/image/0f2618d32d0d33fa6f47d3fbb10f4c55.jpg",
+      "note": "Source context reviewed; selected an exact official body photo instead of the prior mismatched promotional asset."
+    },
+    "sapporo-kani-fukuoka-nanokawa": {
+      "status": "keep",
+      "family": "restaurants",
+      "source_url": "https://kani-honke.co.jp/location_fukuoka.html",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%E3%81%8B%E3%81%AB%E6%9C%AC%E5%AE%B6%20%E7%A6%8F%E5%B2%A1%E9%82%A3%E3%81%AE%E5%B7%9D%E5%BA%97",
+      "image_source_url": "https://kani-honke.co.jp/location_fukuoka.html",
+      "image_url": "https://www.kani-honke.co.jp/img/locations/fukuoka/01.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "hyaku-shiki-robata": {
+      "status": "keep",
+      "family": "restaurants",
+      "source_url": "https://hyaku-shiki.com/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E7%99%BE%E5%BC%8F%20%E7%A6%8F%E5%B2%A1%20%E8%96%AC%E9%99%A2%20%E7%82%89%E7%AB%AF%E7%84%BC",
+      "image_source_url": "https://hyaku-shiki.com/",
+      "image_url": "https://hyaku-shiki.com/html/template/default/assets/img/top/mainimg_img.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "hyotan-sushi-tenjin": {
+      "status": "keep",
+      "family": "restaurants",
+      "source_url": "https://tabelog.com/fukuoka/A4001/A400103/40001153/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%82%87%E3%81%86%E3%81%9F%E3%82%93%E5%AF%BF%E5%8F%B8%20%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1",
+      "image_source_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%82%87%E3%81%86%E3%81%9F%E3%82%93%E5%AF%BF%E5%8F%B8%20%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97%20%E7%A6%8F%E5%B2%A1",
+      "image_url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPIOx-W00NLrrODZE2hTMyQA3idHyoZWCAksjdo2o1j-crL9KhwIlGsyWsCE1VVxa8lZz9eBkv5qoktnTvMQEDYAyP7dhL4PgrCtA9DHOKGaiWP7zrt0-KjrxyRdp_JSf1jRaRhjzdEFeTf=w408-h544-k-no",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "daitouen-honten": {
+      "status": "keep",
+      "family": "restaurants",
+      "source_url": "https://ssl.daitoen.com/tenpo/index.html",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E5%A4%A7%E6%9D%B1%E5%9C%92%20%E6%9C%AC%E5%BA%97%20%E5%8D%9A%E5%A4%9A",
+      "image_source_url": "https://ssl.daitoen.com/umakamon/index.html",
+      "image_url": "https://ssl.daitoen.com/umakamon/img/online-shop-image-1920-1080.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "ichifuji-tenjin": {
+      "status": "keep",
+      "family": "restaurants",
+      "source_url": "https://www.ichifuji-f.jp/nishidori/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%82%E3%81%A4%E9%8D%8B%20%E4%B8%80%E8%97%A4%20%E5%A4%A9%E7%A5%9E%E8%A5%BF%E9%80%9A%E3%82%8A%E5%BA%97",
+      "image_source_url": "https://www.ichifuji-f.jp/nishidori/",
+      "image_url": "https://www.ichifuji-f.jp/wp-content/themes/tenjin/common/images/top_middle_img01_en.jpg",
+      "note": "official branch-page brand share graphic with dish; labeled as brand asset, not branch photography"
+    },
+    "toriden-hakata-honten": {
+      "status": "keep",
+      "family": "restaurants",
+      "source_url": "https://toriden.com/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%82%8A%E7%94%B0%20%E5%8D%9A%E5%A4%9A%E6%9C%AC%E5%BA%97%20%E6%B0%B4%E7%82%8A%E3%81%8D",
+      "image_source_url": "https://toriden.com/",
+      "image_url": "https://toriden.com/images/index/menu_04.jpg",
+      "note": "Source context reviewed; selected an exact official body photo instead of the prior mismatched promotional asset."
+    },
+    "ichiran-tenjin-nishidori": {
+      "status": "keep",
+      "family": "restaurants",
+      "source_url": "https://ichiran.com/shop/kyushu/tenjin-nishidori/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E8%98%AD%20%E5%A4%A9%E7%A5%9E%E8%A5%BF%E9%80%9A%E5%BA%97%20%E7%A6%8F%E5%B2%A1",
+      "image_source_url": "https://ichiran.com/shop/kyushu/tenjin-nishidori/",
+      "image_url": "https://ichiran.com/shop/img/nsdr_exterior.png",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    },
+    "shinshin-tenjin": {
+      "status": "keep",
+      "family": "restaurants",
+      "source_url": "https://www.hakata-shinshin.com/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20ShinShin%20%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97",
+      "image_source_url": "https://www.hakata-shinshin.com/tenpo_tenjin",
+      "image_url": "https://www.hakata-shinshin.com/wordpress/wp-content/uploads/2013/12/tenpo01_photo.jpg",
+      "note": "Source context reviewed; selected an exact official body photo instead of the prior mismatched promotional asset."
+    },
+    "ooyama-kitte-hakata": {
+      "status": "keep",
+      "family": "restaurants",
+      "source_url": "https://motu-ooyama.com/shop/kittehakata/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E3%82%82%E3%81%A4%E9%8D%8B%20%E3%81%8A%E3%81%8A%E3%82%84%E3%81%BE%20KITTE%E5%8D%9A%E5%A4%9A%E5%BA%97",
+      "image_source_url": "https://www.motu-ooyama.com/shop/kittehakata/",
+      "image_url": "https://www.motu-ooyama.com/wp/wp-content/themes/motu-ooyama/common/images/ogp.jpg",
+      "note": "official branch-page Ooyama brand share card showing hot pot and brand; used as a labeled brand visual fallback, not branch photography"
+    },
+    "hanamidori-tenjin": {
+      "status": "keep",
+      "family": "restaurants",
+      "source_url": "https://www.hanamidori.net/stores/0927385583/",
+      "coordinate_source_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E8%8F%AF%E5%91%B3%E9%B3%A5%20%E5%A4%A9%E7%A5%9E%E5%BA%97",
+      "image_source_url": "https://www.hanamidori.net/stores/0927385583/",
+      "image_url": "https://www.hanamidori.net/img/store/tenjin_naikan01.jpg",
+      "note": "exact-place identity, coordinates and image declaration retained"
+    }
+  },
+  "source_incidents": [
+    {
+      "source": "https://toriden.com/store/hakata/",
+      "result": "legacy exact-branch path returned 404; official homepage identifies Hakata Honten and supplies its image, so source_url was moved to working official homepage."
+    },
+    {
+      "source": "https://www.hakata-shinshin.com/tenjin",
+      "result": "legacy exact-branch path returned 404; official homepage remains available and describes the Fukuoka/Tenjin ramen business; branch image uses official brand logo with honest classification."
+    },
+    {
+      "source": "bounded Tabelog image candidate parse for Hyotan Sushi",
+      "result": "candidate parser returned ValueError/no candidate; exact-branch Google Maps photo was previously inspected and retained; no repeated broad search."
+    },
+    {
+      "source": "visual asset review 2026-09-24",
+      "result": "Replaced promotional/banner assets for Umi Jigoku, African Safari, ShinShin, Toriden, Ooyama, Yanagibashi Market and Tenichi with official body photos explicitly associated with the venue or branch; hash-bound visual QA pending."
+    }
+  ],
+  "note": "Keep only compact keep/replace/pending decisions, attempted source families and rate-limit incidents. Do not store prose research here."
+}

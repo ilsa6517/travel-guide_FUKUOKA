@@ -1,0 +1,19 @@
+{
+  "media_pass": true,
+  "counts": {
+    "real_photo": 1,
+    "official_photo": 22,
+    "licensed_photo": 3,
+    "generated_editorial": 0,
+    "illustration": 0,
+    "placeholder": 0,
+    "other": 2
+  },
+  "failures": [],
+  "warnings": [
+    "low resolution: assets/yusentei-garden.jpg (280x192)",
+    "low resolution: assets/hyotan-sushi-tenjin.jpg (408x544)",
+    "low resolution: assets/toriden-hakata-honten.jpg (240x240)",
+    "low resolution: assets/shinshin-tenjin.jpg (360x245)"
+  ]
+}

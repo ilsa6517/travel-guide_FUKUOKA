@@ -1,0 +1,57 @@
+{
+  "data": "OpenStreetMap contributors, queried through Overpass API",
+  "endpoints": [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.openstreetmap.fr/api/interpreter",
+    "https://overpass.osm.ch/api/interpreter"
+  ],
+  "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+  "cells": 22,
+  "queries": 44,
+  "ways": 44138,
+  "days": [
+    {
+      "day": 1,
+      "corridor_cells": 2,
+      "background": "workbench-fukuoka-2026-11\\qa\\offline-overview\\backgrounds\\day-1.osm",
+      "sha256": "14bebcdca5300521c7617483c326883a763373182d26427c9eab9863712eeba4",
+      "features": 626
+    },
+    {
+      "day": 2,
+      "corridor_cells": 4,
+      "background": "workbench-fukuoka-2026-11\\qa\\offline-overview\\backgrounds\\day-2.osm",
+      "sha256": "fd629d06ef874064312656d762c004b1aa7e0c2dd9cb286bb0e30155cff4b294",
+      "features": 1883
+    },
+    {
+      "day": 3,
+      "corridor_cells": 14,
+      "background": "workbench-fukuoka-2026-11\\qa\\offline-overview\\backgrounds\\day-3.osm",
+      "sha256": "b38b8b5e5190d31d8bdf821dbd0e290005d166d6e5b7d44358fc7af6bf04086a",
+      "features": 6051
+    },
+    {
+      "day": 4,
+      "corridor_cells": 5,
+      "background": "workbench-fukuoka-2026-11\\qa\\offline-overview\\backgrounds\\day-4.osm",
+      "sha256": "415083867310dd873d064ce62c050228d92e345a5fc58a983895d315f9d86745",
+      "features": 4367
+    },
+    {
+      "day": 5,
+      "corridor_cells": 2,
+      "background": "workbench-fukuoka-2026-11\\qa\\offline-overview\\backgrounds\\day-5.osm",
+      "sha256": "1bd79d0ec8bee6e4cc65da9f5cee2d720c4dfdb08b747153db249ffc6450a993",
+      "features": 153
+    },
+    {
+      "day": 6,
+      "corridor_cells": 3,
+      "background": "workbench-fukuoka-2026-11\\qa\\offline-overview\\backgrounds\\day-6.osm",
+      "sha256": "fd4b80c4e9502e78e66bad847348481acf05e1a34da2c5cbacebe7d202c4d742",
+      "features": 567
+    }
+  ]
+}

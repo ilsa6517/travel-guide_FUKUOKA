@@ -1,0 +1,9 @@
+{
+  "files": [
+    "research/places/experiences.json",
+    "research/modules/practical.json",
+    "research/modules/language-notes.json"
+  ],
+  "changed_string_count_estimate": 11,
+  "method": "Windows zh-TW LCMapStringEx plus context corrections; Japanese kana/terms and machine enums preserved."
+}

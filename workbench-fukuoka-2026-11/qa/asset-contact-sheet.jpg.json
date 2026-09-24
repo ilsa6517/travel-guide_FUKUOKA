@@ -1,0 +1,230 @@
+{
+  "contact_sheet": "workbench-fukuoka-2026-11\\qa\\asset-contact-sheet.jpg",
+  "columns": 3,
+  "assets": [
+    {
+      "asset_index": 1,
+      "row": 1,
+      "column": 1,
+      "file": "assets/fukuoka-cover.jpg",
+      "place_id": "__cover__",
+      "venue": "福岡"
+    },
+    {
+      "asset_index": 2,
+      "row": 1,
+      "column": 2,
+      "file": "assets/sakurai-futamigaura.jpg",
+      "place_id": "sakurai-futamigaura",
+      "venue": "櫻井二見浦夫婦岩"
+    },
+    {
+      "asset_index": 3,
+      "row": 1,
+      "column": 3,
+      "file": "assets/kyushu-safari.jpg",
+      "place_id": "kyushu-safari",
+      "venue": "九州自然動物公園 African Safari"
+    },
+    {
+      "asset_index": 4,
+      "row": 2,
+      "column": 1,
+      "file": "assets/umi-jigoku.jpg",
+      "place_id": "umi-jigoku",
+      "venue": "海地獄"
+    },
+    {
+      "asset_index": 5,
+      "row": 2,
+      "column": 2,
+      "file": "assets/akizuki-kuro-mon.jpg",
+      "place_id": "akizuki-kuro-mon",
+      "venue": "秋月城跡・黑門"
+    },
+    {
+      "asset_index": 6,
+      "row": 2,
+      "column": 3,
+      "file": "assets/yusentei-garden.jpg",
+      "place_id": "yusentei-garden",
+      "venue": "友泉亭公園"
+    },
+    {
+      "asset_index": 7,
+      "row": 3,
+      "column": 1,
+      "file": "assets/fukuoka-tower.jpg",
+      "place_id": "fukuoka-tower",
+      "venue": "福岡塔"
+    },
+    {
+      "asset_index": 8,
+      "row": 3,
+      "column": 2,
+      "file": "assets/ohori-park.jpg",
+      "place_id": "ohori-park",
+      "venue": "大濠公園"
+    },
+    {
+      "asset_index": 9,
+      "row": 3,
+      "column": 3,
+      "file": "assets/mojiko-retro.jpg",
+      "place_id": "mojiko-retro",
+      "venue": "門司港懷舊區"
+    },
+    {
+      "asset_index": 10,
+      "row": 4,
+      "column": 1,
+      "file": "assets/tenjin-underground-mall.jpg",
+      "place_id": "tenjin-underground-mall",
+      "venue": "天神地下街"
+    },
+    {
+      "asset_index": 11,
+      "row": 4,
+      "column": 2,
+      "file": "assets/canal-city-hakata.jpg",
+      "place_id": "canal-city-hakata",
+      "venue": "博多運河城"
+    },
+    {
+      "asset_index": 12,
+      "row": 4,
+      "column": 3,
+      "file": "assets/yanagibashi-market.jpg",
+      "place_id": "yanagibashi-market",
+      "venue": "柳橋連合市場"
+    },
+    {
+      "asset_index": 13,
+      "row": 5,
+      "column": 1,
+      "file": "assets/sakurai-futamigaura.jpg",
+      "place_id": "futamigaura-coast-photo-stop",
+      "venue": "糸島・櫻井二見浦海岸散策與拍照"
+    },
+    {
+      "asset_index": 14,
+      "row": 5,
+      "column": 2,
+      "file": "assets/kyushu-safari.jpg",
+      "place_id": "african-safari-jungle-bus",
+      "venue": "九州自然動物公園・Jungle Bus 野生動物觀察"
+    },
+    {
+      "asset_index": 15,
+      "row": 5,
+      "column": 3,
+      "file": "assets/akizuki-kuro-mon.jpg",
+      "place_id": "akizuki-old-town-autumn-stroll",
+      "venue": "秋月城下町・黑門與老街慢行"
+    },
+    {
+      "asset_index": 16,
+      "row": 6,
+      "column": 1,
+      "file": "assets/mojiko-retro.jpg",
+      "place_id": "mojiko-retro-waterfront-walk",
+      "venue": "門司港懷舊區・海港建築散步"
+    },
+    {
+      "asset_index": 17,
+      "row": 6,
+      "column": 2,
+      "file": "assets/yanagibashi-market.jpg",
+      "place_id": "yanagibashi-market-food-culture",
+      "venue": "柳橋連合市場・博多食材巡看"
+    },
+    {
+      "asset_index": 18,
+      "row": 6,
+      "column": 3,
+      "file": "assets/tenichi-yatai.jpg",
+      "place_id": "tenichi-yatai-local-evening",
+      "venue": "天一屋台・福岡夜攤文化"
+    },
+    {
+      "asset_index": 19,
+      "row": 7,
+      "column": 1,
+      "file": "assets/sapporo-kani-fukuoka-nanokawa.jpg",
+      "place_id": "sapporo-kani-fukuoka-nanokawa",
+      "venue": "札幌かに本家・福岡那之川店"
+    },
+    {
+      "asset_index": 20,
+      "row": 7,
+      "column": 2,
+      "file": "assets/hyaku-shiki-robata.jpg",
+      "place_id": "hyaku-shiki-robata",
+      "venue": "爐端燒 百式"
+    },
+    {
+      "asset_index": 21,
+      "row": 7,
+      "column": 3,
+      "file": "assets/hyotan-sushi-tenjin.jpg",
+      "place_id": "hyotan-sushi-tenjin",
+      "venue": "葫蘆壽司・天神本店"
+    },
+    {
+      "asset_index": 22,
+      "row": 8,
+      "column": 1,
+      "file": "assets/daitouen-honten.jpg",
+      "place_id": "daitouen-honten",
+      "venue": "燒肉大東園・本店"
+    },
+    {
+      "asset_index": 23,
+      "row": 8,
+      "column": 2,
+      "file": "assets/ichifuji-tenjin.jpg",
+      "place_id": "ichifuji-tenjin",
+      "venue": "博多牛腸鍋一藤・天神西通店"
+    },
+    {
+      "asset_index": 24,
+      "row": 8,
+      "column": 3,
+      "file": "assets/toriden-hakata-honten.jpg",
+      "place_id": "toriden-hakata-honten",
+      "venue": "水炊料亭・博多本店 とり田"
+    },
+    {
+      "asset_index": 25,
+      "row": 9,
+      "column": 1,
+      "file": "assets/ichiran-tenjin-nishidori.jpg",
+      "place_id": "ichiran-tenjin-nishidori",
+      "venue": "一蘭・天神西通店"
+    },
+    {
+      "asset_index": 26,
+      "row": 9,
+      "column": 2,
+      "file": "assets/shinshin-tenjin.jpg",
+      "place_id": "shinshin-tenjin",
+      "venue": "博多拉麵 ShinShin・天神本店"
+    },
+    {
+      "asset_index": 27,
+      "row": 9,
+      "column": 3,
+      "file": "assets/ooyama-kitte-hakata.jpg",
+      "place_id": "ooyama-kitte-hakata",
+      "venue": "博多牛腸鍋大山・KITTE博多店"
+    },
+    {
+      "asset_index": 28,
+      "row": 10,
+      "column": 1,
+      "file": "assets/hanamidori-tenjin.jpg",
+      "place_id": "hanamidori-tenjin",
+      "venue": "博多華味鳥・天神店"
+    }
+  ]
+}
