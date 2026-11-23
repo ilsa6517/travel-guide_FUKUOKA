@@ -1,0 +1,809 @@
+[
+  {
+    "date": "2026-11-24",
+    "theme": "分批抵達・天神與博多初見",
+    "summary": "IT240 先到的兩人在天神吃一蘭拉麵、短逛天神與博多運河城後休息；18:00 抵達的三人先入住。晚間只在演舞確認舉行且趕得上時前往中洲，否則直接吃屋台或博多あかちょこべ。",
+    "periods": {
+      "morning": {
+        "title": "IT240 抵達福岡",
+        "description": "兩人預計 10:00 抵達福岡機場。預留入境、行李及市區移動時間，約中午再開始活動；先處理寄放行李／入住安排，細節依yah.homes Kiyokawa 住宿規則。"
+      },
+      "afternoon": {
+        "title": "天神與博多運河城",
+        "description": "先到兩人約 12:30 在一蘭天神西通店吃博多豚骨拉麵（停留 30 分鐘），之後逛天神地下街並留出咖啡、休息空檔，再到博多運河城看建築中庭與選物；約 16:00 收尾，回藥院前住宿休息並等另一組抵達。"
+      },
+      "evening": {
+        "title": "JX840 會合・一蘭演舞或晚餐備案",
+        "description": "三人預計 18:00 抵達福岡機場；入境、領行李及前往 yah.homes Kiyokawa 後，先判斷能否在 20:00 前到中洲。一蘭演舞目前官方公告暫停；只有確認已恢復且趕得上，才到一蘭本社總本店看演舞，停留 30 分鐘、不安排用餐。若來不及或演舞仍暫停，直接選屋台料理或 21:00 左右到博多あかちょこべ用餐；營業日、候位與最後點餐行前再確認。"
+      }
+    },
+    "stops": [
+      {
+        "place_id": "fukuoka-airport",
+        "arrival_time": "10:00",
+        "dwell_minutes": 120,
+        "transport_mode": "抵達／市區交通",
+        "transfer_minutes": 0,
+        "distance_km": 0,
+        "estimated_cost": "依訂單與現場為準",
+        "practical_note": "此站記錄 IT240 兩人抵達；領取行李後再依yah.homes Kiyokawa 寄放安排進城，另一組 JX840 於傍晚抵達，不能把兩組的抵達時間合併。",
+        "time_guard": "市區活動以 12:00 後開始；若入境或行李延誤，先刪除購物停留。"
+      },
+      {
+        "place_id": "ichiran-tenjin-nishidori",
+        "arrival_time": "12:30",
+        "dwell_minutes": 30,
+        "transport_mode": "市區交通／步行",
+        "transfer_minutes": 30,
+        "distance_km": 5.8,
+        "estimated_cost": "依當期菜單點餐",
+        "practical_note": "IT240 先到的兩人於天神西通店吃一蘭豚骨拉麵，停留 30 分鐘；此餐不與晚間總本店演舞混為一站。",
+        "time_guard": "入境、寄放行李或移動延誤時先縮短天神地下街，不壓縮餐後回住宿休息。"
+      },
+      {
+        "place_id": "tenjin-underground-mall",
+        "arrival_time": "13:15",
+        "dwell_minutes": 65,
+        "transport_mode": "市區交通",
+        "transfer_minutes": 15,
+        "distance_km": 0.2,
+        "estimated_cost": "購物與餐飲依個人消費",
+        "practical_note": "一蘭午餐後在天神地下街挑有興趣的服飾、生活選物與甜品店短逛；用餐與步行時間計入，留體力給另一組會合。",
+        "time_guard": "14:30 左右離開；若先到組需回住宿休息，縮短為 45 分鐘。"
+      },
+      {
+        "place_id": "canal-city-hakata",
+        "arrival_time": "14:45",
+        "dwell_minutes": 70,
+        "transport_mode": "市區步行／交通",
+        "transfer_minutes": 20,
+        "distance_km": 1.4,
+        "estimated_cost": "購物與餐飲依個人消費",
+        "practical_note": "看運河中庭與建築動線，選一至兩家有興趣的店即可，不必逐層逛完；之後回藥院前休息，替晚間會合留體力。",
+        "time_guard": "15:55 左右收尾；不要為了等晚班機在商場久候。"
+      },
+      {
+        "place_id": "ichiran-honten-wagakudan",
+        "arrival_time": "20:00",
+        "dwell_minutes": 30,
+        "transport_mode": "自駕／市區交通",
+        "transfer_minutes": 30,
+        "distance_km": 2.6,
+        "estimated_cost": "觀演不安排用餐；若改吃拉麵再依當期菜單點餐",
+        "practical_note": "此站只為觀看一蘭和樂團演舞，地點是一蘭本社總本店中洲 5-3-2，不是天神西通店。官方目前公告暫停演舞，須先確認恢復及當晚時段；抵達後留 30 分鐘，不安排用餐。",
+        "time_guard": "僅在五人能於 20:00 前到場且演舞已恢復時前往；否則跳過，改吃屋台或 21:00 到博多あかちょこべ。"
+      },
+      {
+        "place_id": "akachokobe-udon",
+        "arrival_time": "21:00",
+        "dwell_minutes": 60,
+        "transport_mode": "自駕／市區交通",
+        "transfer_minutes": 15,
+        "distance_km": 0.8,
+        "estimated_cost": "依當期菜單點餐",
+        "practical_note": "博多冷泉町的烏龍麵店，以名物ずぼらうどん、咖哩烏龍麵等作為抵達夜晚餐選擇；確認當日營業、候位與最後點餐，演舞行程取消時可直接來此。",
+        "time_guard": "演舞結束後再赴餐廳；若 21:30 後才抵達或當日休業，改附近屋台並先確認營業。"
+      }
+    ],
+    "shopping_advice": {
+      "title": "天神與博多分段逛",
+      "description": "先到的兩人可在天神地下街看服飾、美妝與生活選物，接著順路逛博多運河城的設計商店和建築空間；只挑真正想買的品項，留時間回住宿休息。\n伴手禮先記品項、最後一天再集中採買，避免帶著行李移動；店鋪營業、退稅條件和庫存依當日公告與結帳規則確認。"
+    },
+    "fallback": "JX840 三人 18:00 抵達後，以入境、取行李和入住 yah.homes Kiyokawa 的實際進度決定晚間安排。只有能在 20:00 前到中洲且已確認演舞恢復，才看一蘭本社總本店 30 分鐘；否則不趕路，直接選屋台或 21:00 左右到博多あかちょこべ。若あかちょこべ當日未營業或候位過久，改附近仍營業的屋台／簡餐。",
+    "distance_basis": "coordinate_straight_line",
+    "route_note": "白天為兩人抵達，18:00 JX840 三人抵達後再會合；晚間演舞安排是有條件的 30 分鐘觀看，不含用餐。點位距離為直線估算，實際交通依入境、住宿辦理及當日路況。",
+    "photo_advice": {
+      "title": "天神街景與博多夜食",
+      "lighting": "室內以商場天窗漫射光為主；運河城中庭在午後較容易同時保留建築層次與人物表情，夜間避免直接對著強光招牌。",
+      "suitable_shots": [
+        "天神地下街的拱形天花與店面節奏",
+        "博多運河城中庭的弧線與人物比例",
+        "若演舞恢復，於不妨礙觀眾的位置記錄中洲舞台氛圍"
+      ],
+      "portrait_tip": "在商場中庭靠邊取景、不堵走道；店內拍攝先看告示或詢問店員。",
+      "shooting_plan": [
+        {
+          "time": "13:00",
+          "title": "天神地下街・拱廊",
+          "note": "手機用 1× 平視取拱廊對稱線，人物站在通道側邊並略降曝光；相機用 24–35mm、f/4–5.6，避免把路人擠進主體。"
+        },
+        {
+          "time": "15:00",
+          "title": "運河城・中庭弧線",
+          "note": "手機用 0.5× 從欄桿外側略低機位帶出挑空，開夜景模式前先固定手機；相機用 24mm、f/5.6、約 1/60 秒並靠欄桿穩定，避免手持慢門模糊。"
+        }
+      ],
+      "outfit_advice": {
+        "women": "薄針織或襯衫加可收納外套、直筒長褲與已穿慣的步行鞋；用小型斜背包方便分段逛街。",
+        "men": "長袖上衣疊輕外套、直筒長褲與舒適運動鞋；外層選方便在室內脫穿的款式。",
+        "practical_note": "市區室內外溫差依當日天氣調整，外套採可收納層次；抵達日優先穿熟悉好走的鞋，避免新鞋磨腳。"
+      }
+    },
+    "route_screenshots": [
+      {
+        "day": 1,
+        "image": "qa/offline-overview/review-traditional-v2/day-1/day-1-overview.png",
+        "sha256": "c4b79371f501128250dc126496a6e1e4c6c8ea72f34c4b1bff84c5b46e4a9db5",
+        "capture_fingerprint": "a600f1cc00aa713f33eab7d3c72228e762f88037a84e557df5bbdf0226ffd670",
+        "visual_reviewed": true,
+        "review_note": "已逐張檢視繁體中文地圖原尺寸與 390px 手機寬度預覽；所有停靠點依核實座標呈現，編號與行程順序相符，順序箭頭、繁體中文地名、地理背景及 OpenStreetMap 署名清楚。密集市區標籤以引線避讓後仍可辨識。",
+        "background_file": "qa/offline-overview/backgrounds/day-1.osm",
+        "background_sha256": "14bebcdca5300521c7617483c326883a763373182d26427c9eab9863712eeba4",
+        "source_url": "OpenStreetMap data via Overpass API: https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.openstreetmap.fr/api/interpreter, https://overpass.osm.ch/api/interpreter",
+        "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+        "attempts": [
+          {
+            "status": "denied",
+            "reason": "Browser security policy explicitly denied the prepared Day 1 local route-capture page; the denial forbids trying another surface or workaround, so the global browser restriction was recorded and no further local capture pages were attempted.",
+            "checked_at": "2026-09-24T03:18:32Z",
+            "log_file": "qa/route-capture/browser-policy-denial.log",
+            "log_sha256": "bd027cb096ba3edd73c3f42cfbdbbcfd6fd67ca952ce56a96216519ba83262c7"
+          }
+        ],
+        "kind": "offline_overview",
+        "file": "media/routes/capture-day-1-1.svg",
+        "caption": "第1天 · 簡化地理總覽，非街道導航圖",
+        "original_image_sha256": "b9422984e5a60beb9b2af9807339738b384e97285a3eca0f2e596cde30cbdab9"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "theme": "糸島海岸・太宰府神社巡禮",
+    "summary": "早上自駕到二見浦看海並在糸島海鮮堂用午餐，續訪櫻井神社與工房とったん花鹽布丁；下午轉往太宰府，依序看太宰府門前町、竈門神社與太宰府天滿宮。跨區車程較長，行程需看當日路況並在延誤時縮短停留。",
+    "periods": {
+      "morning": {
+        "title": "糸島二見浦與海鮮午餐",
+        "description": "09:00 從 yah.homes Kiyokawa 取車出發，先到櫻井二見浦海岸短停，再於約 11:00 到糸島海鮮堂二見ヶ浦本店午餐；餐廳營業與候位依當日公告。"
+      },
+      "afternoon": {
+        "title": "櫻井神社・花鹽布丁・太宰府",
+        "description": "午餐後約 13:00 參拜櫻井神社，14:00 前往糸島半島西端工房とったん吃花鹽布丁，之後開往太宰府。約 15:00 從門前町短逛，再去竈門神社，最後於 17:00 左右參拜太宰府天滿宮；糸島西端至太宰府車程可能延誤後段，預先保留縮短方案。"
+      },
+      "evening": {
+        "title": "太宰府參拜・爐端燒晚餐",
+        "description": "竈門神社與太宰府天滿宮均以短時參拜為主，留意 11 月日落與授與所服務時間；之後返回福岡市區，爐端燒預約「三光橋」或「すみ劇場 むさし坐」其中一家，出發前確認地址、營業和訂位。"
+      }
+    },
+    "stops": [
+      {
+        "place_id": "sakurai-futamigaura",
+        "arrival_time": "10:00",
+        "dwell_minutes": 30,
+        "transport_mode": "自駕",
+        "transfer_minutes": 0,
+        "distance_km": 0,
+        "estimated_cost": "停車與現場費用依當日公告",
+        "practical_note": "沿海岸平路短看櫻井二見浦夫婦岩與白色鳥居；此行程為趕 11:00 午餐而縮短停留。海況、風勢或濕滑時不靠近浪線。",
+        "time_guard": "10:30 前離開，預留開往海鮮堂與停車時間。"
+      },
+      {
+        "place_id": "itoshima-seafood-hall",
+        "arrival_time": "11:00",
+        "dwell_minutes": 70,
+        "transport_mode": "自駕",
+        "transfer_minutes": 10,
+        "distance_km": 0.3,
+        "estimated_cost": "依當期菜單點餐",
+        "practical_note": "在二見浦本店用午餐，主打糸島海鮮丼與海景用餐；熱門時段可能候位，先確認營業及最後點餐。",
+        "time_guard": "12:10 左右離開；候位延誤時縮短餐後停留，避免推遲櫻井神社。"
+      },
+      {
+        "place_id": "sakurai-shrine",
+        "arrival_time": "13:00",
+        "dwell_minutes": 35,
+        "transport_mode": "自駕",
+        "transfer_minutes": 25,
+        "distance_km": 1.5,
+        "estimated_cost": "境內參拜免費；授與品另計",
+        "practical_note": "參拜糸島櫻井神社本殿與境內，留意社務所授與時間；與櫻井二見浦海岸景點不同，勿混為同一站。",
+        "time_guard": "13:40 前離開，為花鹽布丁與跨區車程留緩衝。"
+      },
+      {
+        "place_id": "mataichi-salt-pudding",
+        "arrival_time": "14:00",
+        "dwell_minutes": 25,
+        "transport_mode": "自駕",
+        "transfer_minutes": 20,
+        "distance_km": 11.0,
+        "estimated_cost": "依現場商品價格",
+        "practical_note": "到またいちの塩「工房とったん」購買招牌花鹽布丁；店址在糸島半島西端，末段道路狹窄且含砂石路，依現場指示慢行。",
+        "time_guard": "14:30 前離開；若路況、排隊或營業時間不合，略過此站直接往太宰府。"
+      },
+      {
+        "place_id": "dazaifu-monzen",
+        "arrival_time": "15:40",
+        "dwell_minutes": 25,
+        "transport_mode": "自駕",
+        "transfer_minutes": 75,
+        "distance_km": 41.5,
+        "estimated_cost": "門前町消費依個人選擇，停車另計",
+        "practical_note": "抵達太宰府後在參道與門前町短走，作為太宰府地區到達站；與太宰府天滿宮境內參拜分開記錄。",
+        "time_guard": "16:05 前離開門前町前往竈門神社；若已落後，門前町改為經過。"
+      },
+      {
+        "place_id": "kamado-shrine",
+        "arrival_time": "16:20",
+        "dwell_minutes": 30,
+        "transport_mode": "自駕",
+        "transfer_minutes": 15,
+        "distance_km": 2.2,
+        "estimated_cost": "境內參拜免費；授與品、停車另計",
+        "practical_note": "參拜寶滿宮竈門神社境內，以本殿與授與所為主；可由太宰府站區乘車前往，山側路段留意日落與停車。",
+        "time_guard": "16:55 前離開；授與所服務時間通常早於境內開放，若希望購買授與品需另行核實。"
+      },
+      {
+        "place_id": "dazaifu-tenmangu",
+        "arrival_time": "17:10",
+        "dwell_minutes": 45,
+        "transport_mode": "自駕",
+        "transfer_minutes": 15,
+        "distance_km": 1.8,
+        "estimated_cost": "境內參拜免費；授與品另計",
+        "practical_note": "參拜太宰府天滿宮主殿區域並沿參道返回；11 月官方通常列 19:00 閉門，留意當日公告與傍晚天色。",
+        "time_guard": "18:00 前完成參拜並離開；若交通延誤，優先保留天滿宮、縮短門前町與前一站。"
+      },
+      {
+        "place_id": "robata-sankobashi-or-musashiza",
+        "arrival_time": "19:10",
+        "dwell_minutes": 120,
+        "transport_mode": "自駕",
+        "transfer_minutes": 50,
+        "distance_km": 15,
+        "estimated_cost": "依店家當期菜單",
+        "practical_note": "福岡市區爐端燒晚餐，三光橋與すみ劇場 むさし坐為二選一，尚未指定最終店家；預約時確認五人座位、地址及抵達時間。",
+        "time_guard": "先訂位並留足從太宰府返市交通；若將晚到，直接聯絡預約店家。"
+      }
+    ],
+    "shopping_advice": {
+      "title": "今天以海岸體驗為主",
+      "description": "糸島日把時間留給海岸、午餐和咖啡甜品，不安排為購物繞路；海邊店鋪分散，若臨時停靠，先確認營業與停車再決定。\n需要集中看服飾、美妝或伴手禮，改放在 11/24、11/28 或返程前的福岡市區時段。海邊購買食品時留意冷藏與返程攜帶條件。"
+    },
+    "fallback": "本日路線跨糸島半島西端及太宰府，若天候差、海邊風雨大或 14:30 前仍未離開工房とったん，直接放棄後段太宰府門前町與竈門神社，改走較短路線至太宰府天滿宮；若更晚，取消糸島西端花鹽布丁，保留海鮮午餐、櫻井神社與太宰府天滿宮。晚餐延誤時聯絡已訂位的爐端燒店。",
+    "distance_basis": "coordinate_straight_line",
+    "route_note": "自駕由福岡市區往糸島，再由半島西側跨區至太宰府、晚間返福岡；車程為估算且受路況影響。每日時段很緊，先核實訂位、營業時間及停車，延誤時依備案刪減停留。",
+    "photo_advice": {
+      "title": "糸島海岸與太宰府參道",
+      "lighting": "海岸上午優先保留海面與鳥居層次；下午太宰府光線轉柔，參道與神社境內以自然光和建築細節為主。",
+      "suitable_shots": [
+        "櫻井二見浦夫婦岩、鳥居和海平線",
+        "太宰府參道與神社境內建築細節"
+      ],
+      "portrait_tip": "糸島海邊留意強風、濕滑地面與浪線，不跨越護欄；塔內拍攝避開玻璃反光並讓其他遊客通行。",
+      "shooting_plan": [
+        {
+          "time": "10:10",
+          "title": "櫻井二見浦・海平線",
+          "note": "手機用 1× 平視把夫婦岩與鳥居置於三分線，逆光時點海面測光並稍降曝光；相機用 35–50mm、f/8、約 1/500 秒並留意鹽霧。"
+        },
+        {
+          "time": "17:15",
+          "title": "太宰府天滿宮・境內",
+          "note": "手機用 1× 對準建築細節並避開參拜人群正面；相機用 24–35mm、f/4–5.6，快門至少 1/125 秒並提高 ISO，拍攝前確認境內告示。"
+        }
+      ],
+      "outfit_advice": {
+        "women": "保暖上衣加防風外層、長褲與防滑步行鞋；圍巾可固定好，海岸避免寬鬆衣物被風吹亂。",
+        "men": "長袖針織或抓絨中層、輕防風外套、長褲與止滑鞋；備薄手套供海邊風大時使用。",
+        "practical_note": "糸島風勢可能比市區強，出發前看當日預報決定外層；海岸不攀巖、不涉水，展望臺室內可視體感脫下外衣。"
+      }
+    },
+    "route_screenshots": [
+      {
+        "day": 2,
+        "image": "qa/offline-overview/review-traditional-v2/day-2/day-2-overview.png",
+        "sha256": "bf8743c2115eb3442c20dfe56e10f4efe6779e3fb64debce8b4e448fab07e78f",
+        "capture_fingerprint": "79ceadd6a1e5f5614cd0abf59026d31119c213acdef131400edff373352a842f",
+        "visual_reviewed": true,
+        "review_note": "已逐張檢視繁體中文地圖原尺寸與 390px 手機寬度預覽；所有停靠點依核實座標呈現，編號與行程順序相符，順序箭頭、繁體中文地名、地理背景及 OpenStreetMap 署名清楚。密集市區標籤以引線避讓後仍可辨識。",
+        "background_file": "qa/offline-overview/backgrounds/day-2.osm",
+        "background_sha256": "fd629d06ef874064312656d762c004b1aa7e0c2dd9cb286bb0e30155cff4b294",
+        "source_url": "OpenStreetMap data via Overpass API: https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.openstreetmap.fr/api/interpreter, https://overpass.osm.ch/api/interpreter",
+        "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+        "attempts": [
+          {
+            "status": "denied",
+            "reason": "Browser security policy explicitly denied the prepared Day 1 local route-capture page; the denial forbids trying another surface or workaround, so the global browser restriction was recorded and no further local capture pages were attempted.",
+            "checked_at": "2026-09-24T03:18:32Z",
+            "log_file": "qa/route-capture/browser-policy-denial.log",
+            "log_sha256": "bd027cb096ba3edd73c3f42cfbdbbcfd6fd67ca952ce56a96216519ba83262c7"
+          }
+        ],
+        "kind": "offline_overview",
+        "file": "media/routes/capture-day-2-1.svg",
+        "caption": "第2天 · 簡化地理總覽，非街道導航圖",
+        "original_image_sha256": "37b7fb08d5a0ea1e25489022bb63e64d335acf9087715bf95cd4887f528bd69e"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "theme": "九州自然動物公園・別府地熱景觀",
+    "summary": "九州自然動物公園後短停海地獄，傍晚到筑紫野二日市的木鶏（Mokkei）吃串燒與海鮮居酒屋料理；由布院不列為必去，避免再加長距離行車。",
+    "periods": {
+      "morning": {
+        "title": "提早前往動物公園",
+        "description": "依使用者已租的七人座自駕，建議約 07:30 從藥院前出發，預留途中休息和交通緩衝；僅此日採早起安排。抵達後以園區主要觀察動線為主，Jungle Bus 票券供應及場次須按官方當日資訊確認。"
+      },
+      "afternoon": {
+        "title": "海地獄短停・返福岡",
+        "description": "動物公園結束後前往別府海地獄，保留一處代表性地熱景觀與休息時間，不跑多個地獄、不加由布院。若園區停留較久或長輩疲累，略過海地獄，直接返福岡。"
+      },
+      "evening": {
+        "title": "木鶏（Mokkei）晚餐・長途返程後放慢節奏",
+        "description": "依動物園與海地獄實際離場時間，預約筑紫野二日市的木鶏用晚餐，先確認營業、五人座位與可接受到店時段。使用者提供的炭焼地鶏 山蔵為備選，但 11/26 是週四且資料列週四休店，需先取得店家確認；若無法接待，改用福岡市區一藤並調整返程。"
+      }
+    },
+    "stops": [
+      {
+        "place_id": "kyushu-safari",
+        "arrival_time": "10:00",
+        "dwell_minutes": 150,
+        "transport_mode": "自駕",
+        "transfer_minutes": 0,
+        "distance_km": 0,
+        "estimated_cost": "門票、車遊或 Jungle Bus 依官方當期公告；票券現場狀況待確認",
+        "practical_note": "以園區主體驗為核心，可依當日規則選自駕觀察或 Jungle Bus；Bus 場次與票券可能受供應影響，購票前確認集合時間和乘車限制，長輩可按體力縮短戶外段。",
+        "time_guard": "最晚約 12:45 離園，避免擠壓海地獄與回程；若票券無法取得，改園區允許的自駕路線。"
+      },
+      {
+        "place_id": "umi-jigoku",
+        "arrival_time": "14:00",
+        "dwell_minutes": 60,
+        "transport_mode": "自駕",
+        "transfer_minutes": 35,
+        "distance_km": 6.8,
+        "estimated_cost": "入園費用依官方當期公告",
+        "practical_note": "只看海地獄主要藍色熱泉與園內代表景觀，沿平整園路慢走、留意蒸氣和地面標示；不延伸成多園區巡遊。",
+        "time_guard": "15:00 前離開；若前一站延誤超過 45 分鐘或有人疲倦，直接取消此站並返福岡。"
+      },
+      {
+        "place_id": "mokkei",
+        "arrival_time": "18:30",
+        "dwell_minutes": 100,
+        "transport_mode": "自駕",
+        "transfer_minutes": 120,
+        "distance_km": 90.6,
+        "estimated_cost": "依當期菜單與點餐為準",
+        "practical_note": "長途自駕返程後到木鶏用串燒與海鮮晚餐，五人座位與到店時間先預約確認；若行車延誤，先電話告知。炭焼地鶏 山蔵為使用者提供的備選，週四休店風險需確認；福岡市區一藤可作第二備案。",
+        "time_guard": "若海地獄延誤或回程路況不佳，取消海地獄、優先安全返程並調整餐廳到店時間。"
+      }
+    ],
+    "shopping_advice": {
+      "title": "把時間留給動物與返程",
+      "description": "本日最長車程且需照顧長輩，園區與海地獄之間只留一個主題景點，不安排購物。園區商店若正好經過，可短看、不為商品延長停留。\n伴手禮集中在福岡市區日購買，避免長途車上放置易融、易壓或需冷藏品；入場與體驗費用出發前依官方公告確認。"
+    },
+    "fallback": "若早上有人不適或路況延誤，保留九州自然動物公園作唯一主要景點，取消海地獄並直接返福岡；若降雨令園內戶外體驗不適合，依園方可用區域縮短參觀，不為補景點再去由布院。牛腸鍋訂位先聯絡店家調整或取消。",
+    "distance_basis": "coordinate_straight_line",
+    "route_note": "本日為長距離往返，路線圖只示點位先後與大致地理方向；直線距離不是道路里程或車程，出發、回程與休息均需依即時導航緩衝。",
+    "photo_advice": {
+      "title": "動物觀察與別府湯氣",
+      "lighting": "動物園以上午柔光和車窗外景為主，避免強反光；海地獄下午用散射光表現水色與蒸氣，逆光時保留高光細節。",
+      "suitable_shots": [
+        "園區車窗外的動物與草原環境",
+        "海地獄藍色水面、白霧及園路植栽"
+      ],
+      "portrait_tip": "在動物園遵守車內與園方拍攝規則，不敲窗或使用閃光燈；海地獄讓出狹窄步道並遠離蒸氣邊緣。",
+      "shooting_plan": [
+        {
+          "time": "10:30",
+          "title": "自然動物公園・車窗觀察",
+          "note": "手機用 2× 或光學長焦隔窗拍，先把鏡頭貼近玻璃並降低室內倒影；相機用 70–200mm、f/4–5.6、至少 1/500 秒，必要時提高 ISO，車輛移動時不換鏡。"
+        },
+        {
+          "time": "14:20",
+          "title": "海地獄・熱泉蒸氣",
+          "note": "手機用 1× 以水池邊緣作水平線、點選藍水測光並略降曝光；相機用 35–50mm、f/5.6、約 1/250 秒，手持時開穩定並保留蒸氣亮部。"
+        }
+      ],
+      "outfit_advice": {
+        "women": "保暖中層加輕防風外套、長褲與好走鞋；帶圍巾和容易穿脫的外層，車上備薄襪或暖手用品。",
+        "men": "長袖上衣配抓絨／針織中層與防風外套，長褲及防滑步行鞋；備可收納雨具和車上保暖層。",
+        "practical_note": "這天在車內、園區戶外和別府蒸氣區切換，依出發前預報增減衣層；不靠近未開放區域，遵守園方動物觀察與地熱區警示。"
+      }
+    },
+    "route_screenshots": [
+      {
+        "day": 3,
+        "image": "qa/offline-overview/review-traditional-v2/day-3/day-3-overview.png",
+        "sha256": "a91efffa43cf6465e7bbb7deba9d5fac16fdd8b1c184138cafa368464a461ae2",
+        "capture_fingerprint": "c003d73ef118abffac01136fc74b0abe94a0f5b0a990b72f07ab0bac6331597a",
+        "visual_reviewed": true,
+        "review_note": "已逐張檢視繁體中文地圖原尺寸與 390px 手機寬度預覽；所有停靠點依核實座標呈現，編號與行程順序相符，順序箭頭、繁體中文地名、地理背景及 OpenStreetMap 署名清楚。密集市區標籤以引線避讓後仍可辨識。",
+        "background_file": "qa/offline-overview/backgrounds/day-3.osm",
+        "background_sha256": "b38b8b5e5190d31d8bdf821dbd0e290005d166d6e5b7d44358fc7af6bf04086a",
+        "source_url": "OpenStreetMap data via Overpass API: https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.openstreetmap.fr/api/interpreter, https://overpass.osm.ch/api/interpreter",
+        "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+        "attempts": [
+          {
+            "status": "denied",
+            "reason": "Browser security policy explicitly denied the prepared Day 1 local route-capture page; the denial forbids trying another surface or workaround, so the global browser restriction was recorded and no further local capture pages were attempted.",
+            "checked_at": "2026-09-24T03:18:32Z",
+            "log_file": "qa/route-capture/browser-policy-denial.log",
+            "log_sha256": "bd027cb096ba3edd73c3f42cfbdbbcfd6fd67ca952ce56a96216519ba83262c7"
+          }
+        ],
+        "kind": "offline_overview",
+        "file": "media/routes/capture-day-3-1.svg",
+        "caption": "第3天 · 簡化地理總覽，非街道導航圖",
+        "original_image_sha256": "a26217f1b084a4351b450d84900c0c6d39e426d65c787a4a88c1ed3eab033b5c"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "theme": "柳川水鄉遊船・本吉屋鰻魚午餐・秋月慢步賞楓",
+    "summary": "上午到柳川搭短程川下り，在沖端吃本吉屋蒸籠鰻魚飯，時間允許再泡 10–15 分鐘足湯；午後轉往秋月城下町與黑門慢走，傍晚回福岡吃預約的鱈場蟹。紅葉只作季節加分，實際花況依當週天候。",
+    "periods": {
+      "morning": {
+        "title": "柳川川下り・沖端街區",
+        "description": "不早於 09:00 從藥院前出發，預留約 75 分鐘車程；目標 10:30 在沖端區乘短程撐篙船。柳川有多個船家與乘船場，先確認所選船家的集合點與發船時間；船班不合時縮短游船或略過，不在柳川久候。"
+      },
+      "afternoon": {
+        "title": "本吉屋午餐・足湯可選・秋月老街",
+        "description": "約 11:30 在元祖本吉屋沖端店吃蒸籠鰻魚飯，官方目前列 15:00 關店、14:30 最後點餐，行前確認。午餐後若足湯仍開放且時間寬裕，短停 10–15 分鐘；約 13:15 開車往秋月，目標 14:30 前後抵達，沿黑門與杉之馬場一帶平緩慢走，不加爬坡或遠端步道。"
+      },
+      "evening": {
+        "title": "回福岡・鱈場蟹晚餐",
+        "description": "約 16:30–16:45 離開秋月，預留秋季路況回福岡並於 19:00 左右到札幌蟹本家那之川店。訂位時確認本タラバ蟹於 11/27 供應、份量、價格與五人座；若想改為天神居酒屋，可參考使用者提供的「まいど」Tabelog 頁面，蟹種與當日菜單須另向店家確認。"
+      }
+    },
+    "stops": [
+      {
+        "place_id": "yanagawa-kawakudari",
+        "arrival_time": "10:30",
+        "dwell_minutes": 45,
+        "transport_mode": "自駕／步行／遊船",
+        "transfer_minutes": 75,
+        "distance_km": 47.6,
+        "estimated_cost": "船資依選定船家與當期方案；現場／預約方式行前確認",
+        "practical_note": "選沖端區短程遊船，依船家確認正確乘船場、候船與最後發船時間；一般航程約 30–40 分鐘，集合及候船可能另計。照片為實際柳川運河遊船。",
+        "time_guard": "以 11:15 前後離船為目標；若需久候，取消足湯並縮短秋月停留，不能為趕路超速。"
+      },
+      {
+        "place_id": "motoyoshiya-okinahata",
+        "arrival_time": "11:30",
+        "dwell_minutes": 70,
+        "transport_mode": "步行",
+        "transfer_minutes": 15,
+        "distance_km": 0.4,
+        "estimated_cost": "依當期鰻魚飯菜單；預算以點餐為準",
+        "practical_note": "在沖端店吃柳川蒸籠鰻魚飯；官方目前列 11:00–15:00、LO 14:30、週一休，11/27 為週五但仍需確認當日營業與候位。",
+        "time_guard": "以 12:40 前後離店；如遇候位延誤，取消足湯，確保仍能白天抵達秋月。"
+      },
+      {
+        "place_id": "karatachi-literary-footbath",
+        "arrival_time": "12:50",
+        "dwell_minutes": 15,
+        "transport_mode": "步行",
+        "transfer_minutes": 10,
+        "distance_km": 0.5,
+        "estimated_cost": "目前列免費；以當日公告為準",
+        "practical_note": "本吉屋午餐後短休息，先確認目前公告的 11:00–15:00 開放安排；自備小毛巾，延誤時優先略過。",
+        "time_guard": "最多停 15 分鐘；未開放、排隊或已落後就直接開往秋月。"
+      },
+      {
+        "place_id": "akizuki-kuro-mon",
+        "arrival_time": "14:30",
+        "dwell_minutes": 105,
+        "transport_mode": "自駕／步行",
+        "transfer_minutes": 80,
+        "distance_km": 43.9,
+        "estimated_cost": "停車、餐食與現場費用依當日公告",
+        "practical_note": "沿平緩老街走黑門與杉之馬場，留出坐下休息、咖啡或簡單點心時間；紅葉不保證滿紅，避免延伸步道。",
+        "time_guard": "16:30–16:45 開始返福岡；若抵達秋月晚於 15:00，縮短為黑門周邊散步。"
+      },
+      {
+        "place_id": "sapporo-kani-fukuoka-nanokawa",
+        "arrival_time": "19:00",
+        "dwell_minutes": 120,
+        "transport_mode": "自駕／市區交通",
+        "transfer_minutes": 100,
+        "distance_km": 29.0,
+        "estimated_cost": "依蟹種、套餐及當期菜單；預約時確認",
+        "practical_note": "指定鱈場蟹晚餐仍以札幌蟹本家那之川店為主選；訂位直接確認本タラバ蟹可否於 11/27 供應、份量、套餐價與取消規則。若較想吃天神居酒屋，可改選「旬の味 博多の味 まいど」；它是否供應本タラバ仍待店家確認。",
+        "time_guard": "秋月回程若晚於預期，立即聯絡餐廳；蟹種與座位需事先訂妥。"
+      }
+    ],
+    "shopping_advice": {
+      "title": "古城散步日不繞去購物",
+      "description": "秋月以城下町和庭園為重點，沿途只看真正感興趣的小店，不把購物當作額外任務；老街營業有差異，遇到想逛的店先看現場告示。\n較完整的服飾、美妝與伴手禮安排在市區日。楓葉季人流可能變化，留出停車、午餐和長輩休息時間比趕店更重要。"
+    },
+    "fallback": "柳川船家或班次不合時，不在乘船場長等；視時間取消游船，保留本吉屋午餐後直赴秋月。足湯是可取消的短休息，不影響主要路線。若 15:00 後才到秋月，只在黑門周邊走短段並提早返福岡；若長輩疲累或路況差，直接回福岡保留晚餐。若選札幌蟹本家，須確認本タラバ供應；若改選天神「まいど」，先向店家確認當日蟹料理與五人座位。",
+    "distance_basis": "各點距離為經緯度直線估算，不代表道路里程或車程；實際行車、停車、候船和排隊依當日狀況。",
+    "route_note": "福岡藥院前→柳川沖端船家→元祖本吉屋→文人足湯（可略）→秋月黑門→福岡那之川晚餐；同日包含長段自駕，視船班及長輩體力刪減足湯與老街停留。路線箭頭表示停靠順序，不是導航指引。",
+    "photo_advice": {
+      "title": "柳川水巷與秋月紅葉散步",
+      "lighting": "上午運河以水面反光和船篷為主，船上避免逆光拍人臉；秋月午後用側光記錄黑門與城下町街景，紅葉色彩依當週天候。",
+      "suitable_shots": [
+        "柳川撐篙船、運河與沖端老屋",
+        "本吉屋店面與鰻魚料理（先看店內拍攝規定）",
+        "秋月黑門、杉之馬場與當週楓葉實況"
+      ],
+      "portrait_tip": "船上依船家安全指示坐穩並收好手機；老街不堵店家出入口，長輩合照選平坦寬處，足湯拍攝先避開其他使用者。",
+      "shooting_plan": [
+        {
+          "time": "10:40",
+          "title": "柳川運河・遊船",
+          "note": "手機用 1× 取船頭與兩岸水道，手機腕帶確實固定；相機用 35–50mm、f/5.6–8，快門至少 1/500 秒以應付船身晃動。"
+        },
+        {
+          "time": "15:00",
+          "title": "秋月・黑門街段",
+          "note": "手機用 1× 保留黑門與街道比例，不踩入車道；相機用 35mm、f/5.6、約 1/250 秒，紅葉未轉色就以石垣與木造街景作主體。"
+        }
+      ],
+      "outfit_advice": {
+        "women": "長袖中層加可收納防風外套、長褲與止滑步行鞋；船上與秋月都可能受風，帶小毛巾供足湯後擦拭。",
+        "men": "薄針織或抓絨中層搭防風外套、長褲及舒適步行鞋；乘船時收好帽子與圍巾，避免風吹落。",
+        "practical_note": "日間戶外與船上體感受風影響，依預報選擇分層穿著；足湯是否開放以當天公告為準，並攜帶小毛巾。"
+      }
+    },
+    "route_screenshots": [
+      {
+        "day": 4,
+        "image": "qa/offline-overview/review-traditional-v2/day-4/day-4-overview.png",
+        "sha256": "8cf652b6f555be3deaf7a9eabe2120cb4f290d86a67c91567ff56d2e22a49bbc",
+        "capture_fingerprint": "7f18110c03148dfbad00f64f35b35a55c397ee3e4b758a8e1c102db0af54b9d7",
+        "visual_reviewed": true,
+        "review_note": "已逐張檢視繁體中文地圖原尺寸與 390px 手機寬度預覽；所有停靠點依核實座標呈現，編號與行程順序相符，順序箭頭、繁體中文地名、地理背景及 OpenStreetMap 署名清楚。密集市區標籤以引線避讓後仍可辨識。",
+        "background_file": "qa/offline-overview/backgrounds/day-4.osm",
+        "background_sha256": "415083867310dd873d064ce62c050228d92e345a5fc58a983895d315f9d86745",
+        "source_url": "OpenStreetMap data via Overpass API: https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.openstreetmap.fr/api/interpreter, https://overpass.osm.ch/api/interpreter",
+        "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+        "attempts": [
+          {
+            "status": "denied",
+            "reason": "Browser security policy explicitly denied the prepared Day 1 local route-capture page; the denial forbids trying another surface or workaround, so the global browser restriction was recorded and no further local capture pages were attempted.",
+            "checked_at": "2026-09-24T03:18:32Z",
+            "log_file": "qa/route-capture/browser-policy-denial.log",
+            "log_sha256": "bd027cb096ba3edd73c3f42cfbdbbcfd6fd67ca952ce56a96216519ba83262c7"
+          }
+        ],
+        "kind": "offline_overview",
+        "file": "media/routes/capture-day-4-1.svg",
+        "caption": "第4天 · 簡化地理總覽，非街道導航圖",
+        "original_image_sha256": "93b56b9c57f6a1391453102d7d7f0fcdccdb00d6085890f1fe0d0de400cd268b"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "theme": "大濠公園・天神午餐與演唱會分流",
+    "summary": "09:00 依訂單還七人座後改為市區輕步行。五人共走大濠公園、吃壽司並在天神短逛；三位年輕人提早吃燒肉後 17:00–21:00 看福岡巨蛋演唱會，兩位長輩可回住宿休息，散場後再集合同行。",
+    "periods": {
+      "morning": {
+        "title": "還車後的大濠公園",
+        "description": "按已訂安排 09:00 還七人座，地點與交車流程依租車訂單。市區先走大濠公園湖畔平路，不繞湖全圈；之後到天神吃壽司，視排隊情形彈性調整入店時間。"
+      },
+      "afternoon": {
+        "title": "天神短逛・演唱會前提早用餐",
+        "description": "天神地下街只逛有興趣的區段，約 15:00 前後在大東園安排燒肉作提早主餐，預約時說明晚間演唱會與五人同行。三位年輕人預留移動和入場時間；兩位長輩可先回藥院前休息，依約定於散場後集合。"
+      },
+      "evening": {
+        "title": "三人進場・長輩休息再會合",
+        "description": "三位年輕同行者依票券 17:00–21:00 看演唱會；兩位長輩不必在場館外久等，建議先回住宿休息，再按現場出入口和訊號約定集合位置。演後五人一起返回住宿；散場交通與實際集合點以當晚人流安排。"
+      }
+    },
+    "stops": [
+      {
+        "place_id": "ohori-park",
+        "arrival_time": "10:15",
+        "dwell_minutes": 75,
+        "transport_mode": "市區交通／步行",
+        "transfer_minutes": 0,
+        "distance_km": 0,
+        "estimated_cost": "公園散步免費；其他費用依現場",
+        "practical_note": "沿湖選一段平坦步道看水景、坐下休息即可，不要求長輩繞湖一周；若晨間還車耽擱，就縮短公園停留。",
+        "time_guard": "11:30 前離開並預留到天神的移動與候位緩衝。"
+      },
+      {
+        "place_id": "hyotan-sushi-tenjin",
+        "arrival_time": "12:00",
+        "dwell_minutes": 75,
+        "transport_mode": "市區交通／步行",
+        "transfer_minutes": 25,
+        "distance_km": 2.1,
+        "estimated_cost": "依當日海鮮與菜單點餐",
+        "practical_note": "安排指定壽司餐，先看當日握壽司與海鮮選擇；五人可先確認排隊方式，若候位過久，勿犧牲下午演唱會緩衝。",
+        "time_guard": "最晚 13:15 左右離開；尖峰排隊超過 30 分鐘改作簡單午餐並視需要另日補壽司。"
+      },
+      {
+        "place_id": "tenjin-underground-mall",
+        "arrival_time": "13:40",
+        "dwell_minutes": 60,
+        "transport_mode": "步行",
+        "transfer_minutes": 20,
+        "distance_km": 0.8,
+        "estimated_cost": "購物依個人消費",
+        "practical_note": "挑天神地下街一段逛服飾、美妝或甜品，設定短停，並讓兩位長輩坐下休息；不要在演唱會前提大件購物袋。",
+        "time_guard": "14:40 左右收尾，預留早餐後休息與前往燒肉店的時間。"
+      },
+      {
+        "place_id": "daitouen-honten",
+        "arrival_time": "15:15",
+        "dwell_minutes": 75,
+        "transport_mode": "步行／市區交通",
+        "transfer_minutes": 20,
+        "distance_km": 1.2,
+        "estimated_cost": "依當期菜單與點餐為準",
+        "practical_note": "把和牛燒肉安排成提早主餐，五人先訂位、控制點餐份量並預留散場前不再用正餐的時間；訂位時確認週六下午供餐時段與五人座席。",
+        "time_guard": "建議 16:30 前離店，留至少 30 分鐘到場館周邊並依票券入場規定再提早。"
+      },
+      {
+        "place_id": "mizuho-paypay-dome-fukuoka",
+        "arrival_time": "17:00",
+        "dwell_minutes": 240,
+        "transport_mode": "市區交通",
+        "transfer_minutes": 30,
+        "distance_km": 4.8,
+        "estimated_cost": "演唱會票券依已購票及主辦公告；未提供票券資料",
+        "practical_note": "此停留僅三位年輕同行者依使用者提供的 17:00–21:00 演唱會時段入場；兩位長輩可先回住宿休息，與同行者事先約定散場後集合點、備用聯絡方式和回住宿安排。",
+        "time_guard": "入場檢查、開場與散場以票券／主辦資訊為準；21:00 結束後預留人潮散場時間，不另排餐廳。"
+      }
+    ],
+    "shopping_advice": {
+      "title": "天神短逛，避免帶大包進場",
+      "description": "壽司後在天神地下街用約一小時看服飾、美妝或甜品，只選最想買的店；演唱會日前後人流可能增加，購物袋、行動電源和入場物品依票券規定處理。\n博多伴手禮可以留到 11/29 分流前採買，冷藏海鮮則不建議提著逛街或帶去場館。退稅和營業資訊以店家當日公告為準。"
+    },
+    "fallback": "若下雨或長輩體力較低，縮短大濠公園為湖畔入口附近坐看水景，保留壽司與天神地下街室內路線；提早結束逛街，先回藥院前休息。若燒肉候位影響入場，取消或改作較快的簡餐，三位看演唱會者以按票券時間進場為優先；長輩散場後再與三人會合。",
+    "distance_basis": "coordinate_straight_line",
+    "route_note": "白天為共同市區路線，17:00 起分流：巨蛋停留只屬三位觀演者，長輩另回住宿休息；圖示僅表示已列地點次序，散場集合另按現場人流。",
+    "photo_advice": {
+      "title": "湖畔倒影與巨蛋夜色",
+      "lighting": "大濠公園上午湖面反光較柔，人物可選樹蔭；天神地下街以室內均勻光為主；巨蛋外夜色和招牌亮度高，要保護高光並依場館規則拍攝。",
+      "suitable_shots": [
+        "大濠公園湖岸、樹影與倒影",
+        "巨蛋外觀與演唱會入口氛圍，不拍攝受限演出內容"
+      ],
+      "portrait_tip": "場館周邊遵從主辦方拍攝規定，不在排隊動線停留；長輩合照安排在白天公園或天神，不必散場擁擠時拍。",
+      "shooting_plan": [
+        {
+          "time": "10:40",
+          "title": "大濠公園・水岸留白",
+          "note": "手機用 1× 在岸邊略低機位讓水面留白、點測人物臉部曝光；相機用 35mm、f/5.6、約 1/250 秒，樹蔭人像可提高 ISO 並穩住水平。"
+        },
+        {
+          "time": "16:40",
+          "title": "巨蛋外・入場前",
+          "note": "手機用 1× 拍外觀、2× 壓縮人流與招牌，夜景模式固定手機數秒；相機用 24–35mm、f/2.8–4、至少 1/125 秒並提高 ISO，先確認主辦拍攝規則及不阻塞入口。"
+        }
+      ],
+      "outfit_advice": {
+        "women": "針織上衣加可脫穿外套、長褲與久站也舒適的鞋；看演唱會者帶輕便隨身包，方便遵守票券尺寸規則。",
+        "men": "長袖上衣配輕保暖外套、直筒長褲與支撐性步行鞋；進場者避免攜帶不必要的大型包具。",
+        "practical_note": "公園步行、室內商場與晚間場館溫差不同，帶可收納外套並依當日預報調整；場館包袋、拍照與入場規則看主辦公告。"
+      }
+    },
+    "route_screenshots": [
+      {
+        "day": 5,
+        "image": "qa/offline-overview/review-traditional-v2/day-5/day-5-overview.png",
+        "sha256": "a9b23f420d6b6c94096d999a6ca4a55ac46578d8edbaedaf80f13edc0efca19c",
+        "capture_fingerprint": "ec8e66055eb1841238055821c4b795fd02bdb9c9d6385d90aae762d6f2a9cd5a",
+        "visual_reviewed": true,
+        "review_note": "已逐張檢視繁體中文地圖原尺寸與 390px 手機寬度預覽；所有停靠點依核實座標呈現，編號與行程順序相符，順序箭頭、繁體中文地名、地理背景及 OpenStreetMap 署名清楚。密集市區標籤以引線避讓後仍可辨識。",
+        "background_file": "qa/offline-overview/backgrounds/day-5.osm",
+        "background_sha256": "1bd79d0ec8bee6e4cc65da9f5cee2d720c4dfdb08b747153db249ffc6450a993",
+        "source_url": "OpenStreetMap data via Overpass API: https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.openstreetmap.fr/api/interpreter, https://overpass.osm.ch/api/interpreter",
+        "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+        "attempts": [
+          {
+            "status": "denied",
+            "reason": "Browser security policy explicitly denied the prepared Day 1 local route-capture page; the denial forbids trying another surface or workaround, so the global browser restriction was recorded and no further local capture pages were attempted.",
+            "checked_at": "2026-09-24T03:18:32Z",
+            "log_file": "qa/route-capture/browser-policy-denial.log",
+            "log_sha256": "bd027cb096ba3edd73c3f42cfbdbbcfd6fd67ca952ce56a96216519ba83262c7"
+          }
+        ],
+        "kind": "offline_overview",
+        "file": "media/routes/capture-day-5-1.svg",
+        "caption": "第5天 · 簡化地理總覽，非街道導航圖",
+        "original_image_sha256": "090557302e6fbb6ef63318360faf571afc120d6093b9a1aad1e888458299f965"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-29",
+    "theme": "分途返程・門司港白天散步",
+    "summary": "兩位 IT240 同行者早上依已訂安排在藥院前取車，走門司港懷舊區後前往北九州機場，目標 20:00 前還車、搭 23:50 的 7G801。另三人留在福岡市區作輕鬆自由活動，再預留取行李和前往福岡機場時間，搭 19:10 的 JX841。",
+    "periods": {
+      "morning": {
+        "title": "兩路分流・門司港與福岡市區",
+        "description": "兩人按第二段租車訂單於藥院前取車；確切時間與取車地址待確認，建議在福岡市區採購／用餐前先完成取車。三人可睡晚一點，在住宿周邊或天神安排咖啡、甜品及最後採買，不必與自駕組同行。"
+      },
+      "afternoon": {
+        "title": "門司港慢走・分組取行李",
+        "description": "兩人中午到門司港復古區，看港邊建築、車站周邊街景和海峽視野，午餐自選並留足休息；約 15:30–16:00 離開前往北九州機場，以 20:00 前還車為硬截止。三人則回住宿取行李、按航司報到截止與預留緩衝前往福岡機場。"
+      },
+      "evening": {
+        "title": "JX841 與 7G801 分別返臺",
+        "description": "三人 JX841 19:10 自福岡機場起飛，建議依航空公司報到截止時間倒推，目標約 16:00 左右到機場的保守規劃仍須按訂單及航司規則覆核；兩人於北九州機場 20:00 前還車，再搭 23:50 的 7G801。兩班資訊以已提供航班號和時刻為限，其餘待確認。"
+      }
+    },
+    "stops": [
+      {
+        "place_id": "mojiko-retro",
+        "arrival_time": "11:30",
+        "dwell_minutes": 150,
+        "transport_mode": "自駕（兩人分組）",
+        "transfer_minutes": 0,
+        "distance_km": 0,
+        "estimated_cost": "停車與餐飲依現場公告；租車細節依訂單",
+        "practical_note": "兩位同行者白天在門司港懷舊區沿平緩港邊街道散步，看車站周邊歷史建築與海峽景；午餐和坐下休息安排在本區，不爬山、不趕景點。",
+        "time_guard": "約 14:00–14:30 開始離開港區，確保能留出前往北九州機場與 20:00 前還車的緩衝。"
+      },
+      {
+        "place_id": "kitakyushu-airport",
+        "arrival_time": "16:00",
+        "dwell_minutes": 240,
+        "transport_mode": "自駕（兩人分組）",
+        "transfer_minutes": 50,
+        "distance_km": 31.0,
+        "estimated_cost": "依已租車訂單、還車和機場現場為準",
+        "practical_note": "兩位同行者於北九州機場處理甲地乙還，使用者設定 20:00 前還車；抵達後留足步行、報到與 23:50 起飛前的緩衝，還車據點位置按租車訂單確認。",
+        "time_guard": "20:00 前完成還車是硬截止；門司港若延誤，立即縮短散步並直接去機場，不再插入其他景點。"
+      }
+    ],
+    "shopping_advice": {
+      "title": "按行李與航班分組收尾",
+      "description": "留在福岡的三人可在藥院前至天神附近短時間補買輕便伴手禮，再依住宿規則取行李；不要為購物跨區。若需冷藏品，先確認攜帶和航空規則。\n門司港組以港區散步和午餐為主，不把購物延長到影響北九州機場 20:00 前還車。退稅、店鋪營業、寄物與機場報到細節依當日公告和訂單確認。"
+    },
+    "fallback": "若兩人取車延誤、下雨或路況變慢，門司港只保留車站／港邊一小段散步與午餐，取消任何額外停靠，最遲按行車緩衝直赴北九州機場並在 20:00 前還車。若三人市區活動或取行李延誤，直接前往福岡機場，不再購物；19:10 航班的報到截止按航空公司訂單確認。",
+    "distance_basis": "coordinate_straight_line",
+    "route_note": "本日是兩組平行返程：地圖只繪兩人實際自駕的門司港→北九州機場順序；另外三人留在福岡市區，依 JX841 時刻前往福岡機場，兩條路線不合併。直線距離不是道路里程。",
+    "photo_advice": {
+      "title": "門司港建築與海峽留影",
+      "lighting": "門司港建築街景以白天側光為宜，港邊風大時避免長時間等待；若天色轉陰，以磚牆、窗框和海峽層次取代夕景承諾。",
+      "suitable_shots": [
+        "門司港車站及懷舊建築立面",
+        "港邊欄桿、船影與關門海峽的水平線"
+      ],
+      "portrait_tip": "港邊留在步道內側拍攝，不跨越護欄或進入車道；保留機場移動時間，別為等光線延遲離開。",
+      "shooting_plan": [
+        {
+          "time": "12:00",
+          "title": "門司港・歷史立面",
+          "note": "手機用 1× 平視車站立面、0.5× 僅在空間窄時使用並校正邊緣；相機用 24–35mm、f/5.6、約 1/250 秒並保持垂直線端正。"
+        },
+        {
+          "time": "13:30",
+          "title": "港灣步道・海峽層次",
+          "note": "手機用 2× 收斂船影與海峽、點測亮天空後略降曝光；相機用 70mm 左右、f/8、至少 1/500 秒並開防手震，避免海風中慢門。"
+        }
+      ],
+      "outfit_advice": {
+        "women": "長袖保暖上衣加防風外套、直筒長褲與防滑鞋；斜背包輕裝出行，帶可收納圍巾應對港邊風。",
+        "men": "針織中層加防風外套、長褲和支撐性步行鞋；證件、車鑰匙和登機用品分袋收妥。",
+        "practical_note": "海港風感可能比市區明顯，穿脫式層次比厚重單件方便；出發前確認租車取還、行李和航司規定，不用夜景等待壓縮機場緩衝。"
+      }
+    },
+    "route_screenshots": [
+      {
+        "day": 6,
+        "image": "qa/offline-overview/review-traditional-v2/day-6/day-6-overview.png",
+        "sha256": "c83b4245043ad7f547f2e6a2c0b4a708db579e4847bb867a5fd0d10370ba3145",
+        "capture_fingerprint": "470a5d26820e13b4892c4de05f5b03f996cacba2a79e9b642ebe97eed7a707b1",
+        "visual_reviewed": true,
+        "review_note": "已逐張檢視繁體中文地圖原尺寸與 390px 手機寬度預覽；所有停靠點依核實座標呈現，編號與行程順序相符，順序箭頭、繁體中文地名、地理背景及 OpenStreetMap 署名清楚。密集市區標籤以引線避讓後仍可辨識。",
+        "background_file": "qa/offline-overview/backgrounds/day-6.osm",
+        "background_sha256": "fd4b80c4e9502e78e66bad847348481acf05e1a34da2c5cbacebe7d202c4d742",
+        "source_url": "OpenStreetMap data via Overpass API: https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.openstreetmap.fr/api/interpreter, https://overpass.osm.ch/api/interpreter",
+        "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+        "attempts": [
+          {
+            "status": "denied",
+            "reason": "Browser security policy explicitly denied the prepared Day 1 local route-capture page; the denial forbids trying another surface or workaround, so the global browser restriction was recorded and no further local capture pages were attempted.",
+            "checked_at": "2026-09-24T03:18:32Z",
+            "log_file": "qa/route-capture/browser-policy-denial.log",
+            "log_sha256": "bd027cb096ba3edd73c3f42cfbdbbcfd6fd67ca952ce56a96216519ba83262c7"
+          }
+        ],
+        "kind": "offline_overview",
+        "file": "media/routes/capture-day-6-1.svg",
+        "caption": "第6天 · 簡化地理總覽，非街道導航圖",
+        "original_image_sha256": "74ed3c2201018f866e8ee544f9a4654cce123ced538f2f6f4a654e018d8da0c0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "maps": [
+    {
+      "day": 1,
+      "image": "qa/offline-overview/review-updated-v3/day-1/day-1-overview.png",
+      "sha256": "cf35764283521e621446efca353ba65844bef4e2ded12c49daaa67d7105172aa",
+      "capture_fingerprint": "4d50c227a8c9b12404acec357be05a99393c32b514c2562aa77bf2be4bc7ecc7",
+      "visual_reviewed": true,
+      "review_note": "已實際檢視原尺寸圖與 390px 手機預覽；編號與下方地名清單順序一致，路線箭頭、繁體中文標題及 OpenStreetMap 署名清楚。此圖為簡化地理總覽，不作道路導航。",
+      "background_file": "qa/offline-overview/backgrounds/day-1.osm",
+      "background_sha256": "14bebcdca5300521c7617483c326883a763373182d26427c9eab9863712eeba4",
+      "source_url": "OpenStreetMap data via Overpass API: https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.openstreetmap.fr/api/interpreter, https://overpass.osm.ch/api/interpreter",
+      "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+      "attempts": [
+        {
+          "status": "denied",
+          "reason": "The authorized browser explicitly denied the prepared local route-capture page under its URL policy. The denial forbids another surface or workaround; no further local capture pages were attempted, so the documented offline overview fallback was used.",
+          "checked_at": "2026-09-24T03:18:32Z",
+          "log_file": "qa/route-capture/browser-policy-denial.log",
+          "log_sha256": "bd027cb096ba3edd73c3f42cfbdbbcfd6fd67ca952ce56a96216519ba83262c7"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "image": "qa/offline-overview/review-updated-v3/day-2/day-2-overview.png",
+      "sha256": "b4f1cf2d1055e5f2c55e88060c193fcc27e42b245795c251e7f162f4348f95d4",
+      "capture_fingerprint": "efd65ca0e792afad33d1a1ef816bc7bf7ef4615d5bde3cd3ade442c920ac3a0a",
+      "visual_reviewed": true,
+      "review_note": "已實際檢視原尺寸圖與 390px 手機預覽；編號與下方地名清單順序一致，路線箭頭、繁體中文標題及 OpenStreetMap 署名清楚。此圖為簡化地理總覽，不作道路導航。",
+      "background_file": "qa/offline-overview/backgrounds/day-2.osm",
+      "background_sha256": "fd629d06ef874064312656d762c004b1aa7e0c2dd9cb286bb0e30155cff4b294",
+      "source_url": "OpenStreetMap data via Overpass API: https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.openstreetmap.fr/api/interpreter, https://overpass.osm.ch/api/interpreter",
+      "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+      "attempts": [
+        {
+          "status": "denied",
+          "reason": "The authorized browser explicitly denied the prepared local route-capture page under its URL policy. The denial forbids another surface or workaround; no further local capture pages were attempted, so the documented offline overview fallback was used.",
+          "checked_at": "2026-09-24T03:18:32Z",
+          "log_file": "qa/route-capture/browser-policy-denial.log",
+          "log_sha256": "bd027cb096ba3edd73c3f42cfbdbbcfd6fd67ca952ce56a96216519ba83262c7"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "image": "qa/offline-overview/review-updated-v3/day-3/day-3-overview.png",
+      "sha256": "11762995fff3d29d1d9ce0d4ff6c867a0110cb9934e71b6e8941e4300aa4c20c",
+      "capture_fingerprint": "73d512d5afbb41073c1d45e2069875d24ac1665883a18c1fd587a57bb967ced1",
+      "visual_reviewed": true,
+      "review_note": "已實際檢視原尺寸圖與 390px 手機預覽；編號與下方地名清單順序一致，路線箭頭、繁體中文標題及 OpenStreetMap 署名清楚。此圖為簡化地理總覽，不作道路導航。",
+      "background_file": "qa/offline-overview/backgrounds/day-3.osm",
+      "background_sha256": "b38b8b5e5190d31d8bdf821dbd0e290005d166d6e5b7d44358fc7af6bf04086a",
+      "source_url": "OpenStreetMap data via Overpass API: https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.openstreetmap.fr/api/interpreter, https://overpass.osm.ch/api/interpreter",
+      "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+      "attempts": [
+        {
+          "status": "denied",
+          "reason": "The authorized browser explicitly denied the prepared local route-capture page under its URL policy. The denial forbids another surface or workaround; no further local capture pages were attempted, so the documented offline overview fallback was used.",
+          "checked_at": "2026-09-24T03:18:32Z",
+          "log_file": "qa/route-capture/browser-policy-denial.log",
+          "log_sha256": "bd027cb096ba3edd73c3f42cfbdbbcfd6fd67ca952ce56a96216519ba83262c7"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "image": "qa/offline-overview/review-updated-v3/day-4/day-4-overview.png",
+      "sha256": "800072f92b4a245917e9205a9e34c0edd3e69f1631999a524876ee196090df49",
+      "capture_fingerprint": "5e64b0bf39d753ed4565319a3ebbf5ef0b447d9d95b88f1d7bb6937395bc4743",
+      "visual_reviewed": true,
+      "review_note": "已實際檢視原尺寸圖與 390px 手機預覽；編號與下方地名清單順序一致，路線箭頭、繁體中文標題及 OpenStreetMap 署名清楚。此圖為簡化地理總覽，不作道路導航。 第4天柳川周邊底圖資料未取得，柳川至秋月以座標點與順序線表示；不得視為完整道路地圖。",
+      "background_file": "qa/offline-overview/backgrounds/day-4.osm",
+      "background_sha256": "415083867310dd873d064ce62c050228d92e345a5fc58a983895d315f9d86745",
+      "source_url": "OpenStreetMap data via Overpass API: https://overpass-api.de/api/interpreter, https://overpass.kumi.systems/api/interpreter, https://overpass.openstreetmap.fr/api/interpreter, https://overpass.osm.ch/api/interpreter",
+      "attribution": "© OpenStreetMap contributors · https://www.openstreetmap.org/copyright",
+      "attempts": [
+        {
+          "status": "denied",
+          "reason": "The authorized browser explicitly denied the prepared local route-capture page under its URL policy. The denial forbids another surface or workaround; no further local capture pages were attempted, so the documented offline overview fallback was used.",
+          "checked_at": "2026-09-24T03:18:32Z",
+          "log_file": "qa/route-capture/browser-policy-denial.log",
+          "log_sha256": "bd027cb096ba3edd73c3f42cfbdbbcfd6fd67ca952ce56a96216519ba83262c7"
+        }
+      ],
+      "caption": "第4天 · 簡化地理總覽（柳川周邊底圖未覆蓋）"
+    }
+  ]
+}

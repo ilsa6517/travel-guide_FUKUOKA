@@ -43,9 +43,9 @@
   "render_method": "official_renderer",
   "canonical_template_hash_verified": true,
   "canonical_index_sha256": "12deadd5d8dac043e52ea454a530ca16903265584f55ad11ee2d1f44c0f7e4a2",
-  "rendered_index_sha256": "50a02d4ab29084ebc1cd80e1a32cb1f31956e5ef2ef2271197589d772699f53d",
-  "profile_sha256": "06db900d34e11942bf36f1f1dd870dc431d87e089af4fe24a86fddcc2d58d618",
-  "bindings_sha256": "aacca0b278b56ab94443d954a1a5e4807726902da56c5fdfd361c90e71da4381",
+  "rendered_index_sha256": "162296815402197743bd4669c54ceb3e87ba09fe88cf0c2bb55368a286fcbf11",
+  "profile_sha256": "88b98989f7622b96ff5d9a87293f46acf0d0c63105fd0d55fb28d196e8fda80e",
+  "bindings_sha256": "7b78e7273d9e1f3826aa6fcfc5af97c5bf640e9be0d397a98b5832a6ec4b6342",
   "custom_page_builder_detected": false,
   "status": "rendered-workbench-still-requires-audit-and-browser-qa"
 }

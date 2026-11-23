@@ -374,12 +374,31 @@ def food(profile: dict, places: dict[str, dict]) -> str:
     dining_items = profile.get("dining_plan", [])
     dining_plan = ""
     if dining_items:
-        dining_rows = "".join(
-            f'<article class="dining-day"><div class="dining-when"><time>{e(item.get("date"))}</time><span>{e(item.get("meal"))}</span></div>'
-            f'<div class="dining-copy"><b>{e(item.get("title"))}</b><div class="dining-meta"><span>{e(item.get("category", ""))}</span><strong>{e(item.get("budget", ""))}</strong></div>'
-            f'<p>{e(item.get("note", ""))}</p></div></article>'
-            for item in dining_items
-        )
+        def dining_row(item: dict) -> str:
+            references = []
+            for link in item.get("reference_links", []):
+                if not isinstance(link, dict):
+                    continue
+                url = str(link.get("url", ""))
+                if url.startswith("https://"):
+                    references.append(
+                        f'<a class="dining-reference" href="{e(url)}" target="_blank" rel="noreferrer">'
+                        f'{e(link.get("label", "餐廳資料 ↗"))}</a>'
+                    )
+            if not references:
+                reference_url = str(item.get("reference_url", ""))
+                if reference_url.startswith("https://"):
+                    references.append(
+                        f'<a class="dining-reference" href="{e(reference_url)}" target="_blank" rel="noreferrer">'
+                        f'{e(item.get("reference_label", "餐廳資料 ↗"))}</a>'
+                    )
+            reference = " ".join(references)
+            return (
+                f'<article class="dining-day"><div class="dining-when"><time>{e(item.get("date"))}</time><span>{e(item.get("meal"))}</span></div>'
+                f'<div class="dining-copy"><b>{e(item.get("title"))}</b><div class="dining-meta"><span>{e(item.get("category", ""))}</span><strong>{e(item.get("budget", ""))}</strong></div>'
+                f'<p>{e(item.get("note", ""))}</p>{reference}</div></article>'
+            )
+        dining_rows = "".join(dining_row(item) for item in dining_items)
         dining_note = profile.get("dining_plan_note", "预算为每人估算；动态价格、酒水、税费与服务费以现场为准。")
         dining_plan = (
             '<details class="audit-current-focus dining-plan"><summary><b>本次餐厅</b><span>展开 ＋</span></summary>'

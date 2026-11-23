@@ -12,17 +12,17 @@ def render(profile, outline, font_path, day_number, out):
         if not math.isfinite(lon) or not math.isfinite(lat) or abs(lat)>85 or abs(lon)>180: raise ValueError('invalid coordinates')
         return math.radians(lon),math.log(math.tan(math.pi/4+math.radians(lat)/2))
     xs,ys=zip(*(merc(s['longitude'],s['latitude']) for s in stops))
-    scale=min(680/max(max(xs)-min(xs),1e-6),460/max(max(ys)-min(ys),1e-6))
+    scale=min(1320/max(max(xs)-min(xs),1e-6),880/max(max(ys)-min(ys),1e-6))
     cx,cy=(max(xs)+min(xs))/2,(max(ys)+min(ys))/2
     def pixel(lon,lat):
-        x,y=merc(lon,lat); return 600+(x-cx)*scale,610-(y-cy)*scale
+        x,y=merc(lon,lat); return 800+(x-cx)*scale,720-(y-cy)*scale
     pts=[pixel(s['longitude'],s['latitude']) for s in stops]
-    im=Image.new('RGB',(1200,1130+88*len(stops)),'#f7f4ed'); d=ImageDraw.Draw(im)
+    im=Image.new('RGB',(1600,1450+88*len(stops)),'#f7f4ed'); d=ImageDraw.Draw(im)
     font=lambda size:ImageFont.truetype(str(font_path),size)
     ink,red='#233d47','#b24f38'
     d.text((60,40),f"{data.get('display_name','旅行')} · DAY {day_number:02d}",font=font(44),fill=ink)
-    d.text((60,110),'简化地理总览，非街道导航图',font=font(36),fill=red)
-    d.text((60,170),'地点按坐标定位；箭头仅表示访问顺序。',font=font(26),fill=ink)
+    d.text((60,110),'簡化地理總覽，非街道導航圖',font=font(36),fill=red)
+    d.text((60,170),'地點依座標標點；編號對應下方清單；箭頭表示順序。',font=font(26),fill=ink)
     layer=Image.new('RGB',im.size,'#e9eeeb'); ld=ImageDraw.Draw(layer)
     tree=ET.parse(outline).getroot()
     nodes={n.get('id'):pixel(float(n.get('lon')),float(n.get('lat'))) for n in tree.findall('node')}
@@ -31,45 +31,49 @@ def render(profile, outline, font_path, day_number, out):
         tags={t.get('k'):t.get('v') for t in way.findall('tag')}; refs=[n.get('ref') for n in way.findall('nd')]
         if len(refs)<2 or any(n not in nodes for n in refs):continue
         geom=[nodes[n] for n in refs]
-        if not any(60<x<1140 and 230<y<990 for x,y in geom):continue
+        if not any(60<x<1540 and 230<y<1200 for x,y in geom):continue
         if tags.get('natural')=='water' and refs[0]==refs[-1]:ld.polygon(geom,fill='#b5d1dc')
         elif tags.get('waterway')=='river' or tags.get('natural')=='coastline':ld.line(geom,fill='#a3c4d1',width=4)
         elif tags.get('highway') in ('primary','secondary','trunk'):ld.line(geom,fill='#d0d8d4',width=5)
         else:continue
         count+=1
     if not count:raise ValueError('no relevant geographic background; blank maps are not accepted')
-    mask=Image.new('L',im.size,0);ImageDraw.Draw(mask).rounded_rectangle((60,230,1140,990),radius=24,fill=255)
+    mask=Image.new('L',im.size,0);ImageDraw.Draw(mask).rounded_rectangle((60,230,1540,1200),radius=24,fill=255)
     im.paste(layer,(0,0),mask);d=ImageDraw.Draw(im)
     for a,b in zip(pts,pts[1:]):
         d.line((a,b),fill=red,width=5);length=math.dist(a,b)
         if length>60:
             ux,uy=(b[0]-a[0])/length,(b[1]-a[1])/length;mx,my=(a[0]+b[0])/2,(a[1]+b[1])/2
             d.polygon([(mx+ux*12,my+uy*12),(mx-ux*10-uy*8,my-uy*10+ux*8),(mx-ux*10+uy*8,my-uy*10-ux*8)],fill=red)
-    boxes=[]
-    for i,((x,y),stop) in enumerate(zip(pts,stops),1):
-        text=f"{i:02d}  {stop['name']}";w=int(d.textlength(text,font=font(38)))+28;h=62;choices=[]
-        for gap in (24,68,112,164,220):
-            for left,top in ((x+gap,y-h/2),(x-gap-w,y-h/2),(x-w/2,y-gap-h),(x-w/2,y+gap)):
-                right,bottom=left+w,top+h
-                if not (80<=left and right<=1120 and 305<=top and bottom<=920):continue
-                if any(left<r+10 and right+10>l and top<b+10 and bottom+10>t for l,t,r,b in boxes):continue
-                if any(left-12<px<right+12 and top-12<py<bottom+12 for px,py in pts):continue
-                hits=sum(left<ax+(bx-ax)*k/20<right and top<ay+(by-ay)*k/20<bottom for (ax,ay),(bx,by) in zip(pts,pts[1:]) for k in range(1,20))
-                choices.append((gap+hits*25,(left,top,right,bottom)))
-        if not choices:raise ValueError('labels do not fit; enlarge layout without moving coordinates')
-        _,box=min(choices,key=lambda c:c[0]);boxes.append(box);left,top,right,bottom=box
+    badge_size=48; half=badge_size/2; badge_boxes=[]; badge_centers=[]
+    directions=((1,0),(0.707,-0.707),(0,-1),(-0.707,-0.707),(-1,0),(-0.707,0.707),(0,1),(0.707,0.707))
+    for i,(x,y) in enumerate(pts):
+        choices=[]
+        for radius in (34,48,64,84,108,136,168):
+            for dx,dy in directions:
+                cx,cy=x+dx*radius,y+dy*radius
+                left,top,right,bottom=(int(round(cx-half)),int(round(cy-half)),int(round(cx+half)),int(round(cy+half)))
+                if not (84<=left and right<=1516 and 254<=top and bottom<=1176):continue
+                if any(left<r+8 and right+8>l and top<b+8 and bottom+8>t for l,t,r,b in badge_boxes):continue
+                if any(j!=i and left-12<px<right+12 and top-12<py<bottom+12 for j,(px,py) in enumerate(pts)):continue
+                hits=sum(left<ax+(bx-ax)*k/16<right and top<ay+(by-ay)*k/16<bottom for (ax,ay),(bx,by) in zip(pts,pts[1:]) for k in range(1,16))
+                choices.append((radius+hits*12,(left,top,right,bottom),(cx,cy)))
+        if not choices:raise ValueError('number badges do not fit; enlarge layout without moving coordinates')
+        _,box,center=min(choices,key=lambda c:c[0]);badge_boxes.append(box);badge_centers.append(center)
+    for i,((x,y),box,(cx,cy)) in enumerate(zip(pts,badge_boxes,badge_centers),1):
+        left,top,right,bottom=box
         d.line(((x,y),(min(max(x,left),right),min(max(y,top),bottom))),fill='#758c91',width=2)
-        d.rounded_rectangle(box,radius=10,fill='white',outline='#b5c6c7',width=2)
-        d.text((left+14,top+29),text,font=font(38),fill=ink,anchor='lm')
-    for x,y in pts:d.ellipse((x-9,y-9,x+9,y+9),fill=ink,outline='white',width=2)
-    d.text((85,250),'上北下南 · 左西右东',font=font(26),fill=ink)
-    d.text((85,933),'局部地理背景已简化',font=font(24),fill='#466a79')
-    d.text((85,965),'© OpenStreetMap contributors · openstreetmap.org/copyright',font=font(18),fill='#526e78')
-    d.text((60,1020),'当天地点 · 按行程顺序',font=font(36),fill=ink)
+        d.ellipse(box,fill='white',outline=red,width=3)
+        d.text((cx,cy),f'{i:02d}',font=font(23),fill=ink,anchor='mm')
+    for x,y in pts:d.ellipse((x-8,y-8,x+8,y+8),fill=ink,outline='white',width=2)
+    d.text((85,250),'上北下南 · 左西右東',font=font(26),fill=ink)
+    d.text((85,1140),'局部地理背景已簡化',font=font(24),fill='#466a79')
+    d.text((85,1170),'© OpenStreetMap contributors · openstreetmap.org/copyright',font=font(18),fill='#526e78')
+    d.text((60,1250),'當天地點 · 按行程順序',font=font(36),fill=ink)
     for i,stop in enumerate(stops,1):
         text=f"{i:02d}  {stop['name']}"
-        if d.textlength(text,font=font(36))>1080:raise ValueError('legend too long; enlarge layout')
-        d.text((60,1100+(i-1)*88),text,font=font(36),fill=ink)
+        if d.textlength(text,font=font(36))>1480:raise ValueError('legend too long; enlarge layout')
+        d.text((60,1330+(i-1)*88),text,font=font(36),fill=ink)
     out.mkdir(parents=True,exist_ok=True);path=out/f'day-{day_number}-overview.png'
     if path.exists():raise ValueError('use new output directory')
     im.save(path,optimize=True);im.thumbnail((390,3000));im.save(out/'phone-preview.png')

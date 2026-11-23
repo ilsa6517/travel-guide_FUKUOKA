@@ -43,7 +43,7 @@ def import_overviews(root, manifest):
             buffer = io.BytesIO()
             image.save(buffer, format='WEBP', quality=84)
             payload = buffer.getvalue()
-        caption = f'第{number}天 · 简化地理总览，非街道导航图'
+        caption = str(row.get('caption') or f'第{number}天 · 簡化地理總覽，非街道導航圖')
         svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}"><title>{escape(caption)} — {escape(row["attribution"])}</title><image width="{w}" height="{h}" href="data:image/webp;base64,{base64.b64encode(payload).decode()}"/></svg>'
         relative = f'media/routes/capture-day-{number}-1.svg'
         record = dict(row, kind='offline_overview', file=relative, caption=caption,

@@ -3,16 +3,16 @@
   "research_plan_sha256": "f96ed3642e561f84b9ef36c308fd7420e3af518bb1e597fa1517ee89ad44a204",
   "pack_count": 9,
   "pack_sha256": {
-    "research/framing.json": "53877d733dddbbdc27447bc7e7af929f0ac1bb82cc63c3569161a0b0f501d428",
-    "research/places/core.json": "c85375be71ed079414ffddfde8ace4d9da95eb4d095c13d18c1ca010b1044d8e",
+    "research/framing.json": "6f814637d8ad0169308157c3b278ba37417beef04b4b0df5794db588217f1b5f",
+    "research/places/core.json": "26196a8aa3d0b0c071eb3b063da524a9ddcff0694523350c238ee463b60e66e0",
     "research/places/shopping.json": "b6f48461aa84d6327940ae60a25e4c8c69209e10eb2b5d5115960623c43ac087",
-    "research/places/experiences.json": "cc8de754b1d44bd484ccfe9c153d2a67f6150242f1870b74275e9415193928e9",
-    "research/places/restaurants.json": "e5d5d660c950ac2291c93f8a66ca8339ceeefced83443a33e4aeb253a5778280",
-    "research/itinerary.json": "f2429a267e881f07e2225875b50dc6bbd338789811e09cdd0b51054c5604e0d6",
-    "research/modules/discovery.json": "efc1c1992d07006213599c74a60e64210a6e087c6cb6a177b284c74b149aca7d",
-    "research/modules/practical.json": "773630b7aa4d2b3131fc7eee7c6f6b0206fedc9893f66e0eb242cb054462db3e",
+    "research/places/experiences.json": "923dbe151bf5dce38b8129449b683847be59442c30d6b07957130d6e15b4583d",
+    "research/places/restaurants.json": "e51363a0a54fb7041547ddfeaafbc948dc2f7045fa64cd95044f7f06e5c96a29",
+    "research/itinerary.json": "16bf5222202e9269b0937e207eb6da86e3394ec0cc8e2d48513e111744533e1d",
+    "research/modules/discovery.json": "4f905633c7358559281a25d9f739b83f8b811713a4a8e19728e8e0f017691801",
+    "research/modules/practical.json": "4f5bc17e9e9e328a4450a69d43690ce7ff12644763d6fa3711f47702c43066bf",
     "research/modules/language-notes.json": "aff02f9e2adb35b333c513fa9bae92dbbeb9663cd7b8ef16ead6530438512bb7"
   },
-  "profile_sha256": "06db900d34e11942bf36f1f1dd870dc431d87e089af4fe24a86fddcc2d58d618",
+  "profile_sha256": "88b98989f7622b96ff5d9a87293f46acf0d0c63105fd0d55fb28d196e8fda80e",
   "test_fixture_detected": false
 }

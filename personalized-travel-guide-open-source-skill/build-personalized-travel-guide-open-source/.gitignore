@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+node_modules/
+.venv/
+qa-*/
+.photo-cache/
+*.zip
+*.pem
+*.key

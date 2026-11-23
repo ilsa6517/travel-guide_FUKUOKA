@@ -1,0 +1,129 @@
+/* Fukuoka travel-mode additions: five compact tools, local route drafts, and an embedded spot guide. */
+body.atlas-ui .trip-view-tabs {
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+}
+
+html body.atlas-ui.trip-mode-open .trip-mode-panel .trip-view-tabs {
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+}
+
+body.atlas-ui .trip-view-tabs button {
+  min-width: 0 !important;
+  padding-inline: 4px !important;
+  font-size: 13px !important;
+  white-space: nowrap;
+}
+
+.trip-local-plan-note {
+  margin: 0 !important;
+  padding: 8px 14px !important;
+  border-top: 1px solid rgba(89, 103, 91, .16);
+  color: #53665a !important;
+  background: #f4f0e7;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+}
+
+.local-itinerary-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 0 0 22px;
+  padding: 18px 20px;
+  border: 1px solid #d9c9a6;
+  border-left: 4px solid #a96e42;
+  background: #f7f1e5;
+}
+
+.local-itinerary-banner strong { display: block; color: #273d35; font-size: 15px; }
+.local-itinerary-banner p { margin: 4px 0 0; color: #59675e; font-size: 13px; line-height: 1.6; }
+.local-itinerary-banner__actions { display: flex; flex-wrap: wrap; gap: 8px; flex: 0 0 auto; }
+.local-itinerary-banner__actions button,
+.trip-draft-actions button {
+  min-height: 44px;
+  padding: 9px 14px;
+  border: 1px solid #31584a;
+  border-radius: 8px;
+  color: #fffdf7;
+  background: #31584a;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.local-itinerary-banner__actions [data-clear-trip-draft],
+.trip-draft-actions .trip-draft-clear {
+  color: #31584a;
+  background: transparent;
+}
+.trip-draft-actions .trip-draft-clear:disabled { opacity: .5; cursor: not-allowed; }
+.trip-draft-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0 4px; }
+.trip-draft-actions .trip-draft-apply { color: #fffdf7; background: #31584a; }
+
+.trip-guide-heading { margin: 4px 0 16px; }
+.trip-guide-heading small { color: #8c6b43 !important; font-size: 10px !important; letter-spacing: .16em; }
+.trip-guide-heading h2 { margin: 5px 0 6px; color: #263d34 !important; font-size: 26px !important; }
+.trip-guide-heading p { margin: 0; color: #647168 !important; font-size: 13px !important; line-height: 1.6 !important; }
+.trip-guide-search { display: grid; gap: 6px; margin: 0 0 14px; color: #4e6258; font-size: 13px; }
+.trip-guide-search input {
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 12px;
+  border: 1px solid #d2d7cd;
+  border-radius: 9px;
+  color: #263d34;
+  background: #fffdf8;
+  font: inherit;
+  font-size: 16px;
+}
+.trip-guide-list { display: grid; gap: 12px; }
+.trip-guide-card {
+  display: grid !important;
+  grid-template-columns: minmax(100px, .7fr) minmax(0, 1.3fr) !important;
+  align-items: stretch;
+  gap: 12px !important;
+  overflow: hidden;
+  border: 1px solid #ddd9cf !important;
+  border-radius: 12px !important;
+  background: #fffdf8 !important;
+}
+.trip-guide-card[hidden] { display: none !important; }
+.trip-guide-card .gallery-wrap { min-width: 0; margin: 0 !important; }
+.trip-guide-card .gallery-wrap img { display: block; width: 100%; height: 100%; min-height: 128px; object-fit: cover; }
+.trip-guide-card .sight-copy { min-width: 0; padding: 12px 12px 12px 0; }
+.trip-guide-card .sight-copy h3 { font-size: 17px !important; }
+.trip-guide-card .sight-facts { font-size: 12px !important; line-height: 1.6 !important; }
+.trip-guide-route-chip {
+  display: inline-flex;
+  margin: 0 0 6px;
+  padding: 3px 7px;
+  border-radius: 99px;
+  color: #31584a;
+  background: #e8efe7;
+  font-size: 11px;
+}
+.trip-guide-empty { padding: 18px; color: #66756c !important; text-align: center; }
+.trip-guide-back { display: inline-flex; min-height: 44px; align-items: center; margin-top: 12px; color: #31584a !important; font-size: 13px; }
+
+.trip-local-route-map { padding: 14px; border: 1px solid #ddd9cf; border-radius: 12px; background: #fffdf8; }
+.trip-local-route-map > p { margin: 0 0 10px; color: #263d34 !important; font-size: 15px !important; font-weight: 700; }
+.trip-local-route-map ol { display: grid; gap: 7px; margin: 0 0 12px; padding: 0; list-style: none; counter-reset: route; }
+.trip-local-route-map li { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 9px 10px; border: 1px solid #e4e1d8; border-radius: 8px; counter-increment: route; }
+.trip-local-route-map li > span { overflow-wrap: anywhere; color: #273d35 !important; font-size: 14px !important; }
+.trip-local-route-map li > span::before { content: counter(route, decimal-leading-zero) " · "; color: #9a7046; font-variant-numeric: tabular-nums; }
+.trip-local-route-map li a { flex: 0 0 auto; color: #31584a !important; font-size: 12px !important; }
+.trip-local-route-map > small { display: block; color: #65746a !important; font-size: 12px !important; line-height: 1.6 !important; }
+.trip-local-empty { padding: 14px; color: #647168 !important; font-size: 13px !important; line-height: 1.6 !important; }
+
+@media (max-width: 560px) {
+  .local-itinerary-banner { align-items: stretch; flex-direction: column; gap: 12px; padding: 15px; }
+  .local-itinerary-banner__actions { width: 100%; }
+  .local-itinerary-banner__actions button { flex: 1 1 auto; }
+  body.atlas-ui .trip-view-tabs button { min-height: 42px !important; padding-inline: 2px !important; font-size: 12px !important; }
+  .trip-guide-card { grid-template-columns: 92px minmax(0, 1fr) !important; gap: 9px !important; }
+  .trip-guide-card .gallery-wrap img { min-height: 112px; }
+  .trip-guide-card .sight-copy { padding: 9px 9px 9px 0; }
+  .trip-guide-card .sight-copy h3 { font-size: 15px !important; }
+  .trip-guide-card .sight-facts { font-size: 11px !important; }
+  .trip-local-route-map { padding: 10px; }
+}

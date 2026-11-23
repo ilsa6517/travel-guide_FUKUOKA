@@ -1,0 +1,13 @@
+{
+  "day": 2,
+  "image": "workbench-fukuoka-2026-11\\qa\\offline-overview\\review-updated-v3\\day-2\\day-2-overview.png",
+  "sha256": "b4f1cf2d1055e5f2c55e88060c193fcc27e42b245795c251e7f162f4348f95d4",
+  "capture_fingerprint": "efd65ca0e792afad33d1a1ef816bc7bf7ef4615d5bde3cd3ade442c920ac3a0a",
+  "background_file": "workbench-fukuoka-2026-11\\qa\\offline-overview\\backgrounds\\day-2.osm",
+  "background_sha256": "fd629d06ef874064312656d762c004b1aa7e0c2dd9cb286bb0e30155cff4b294",
+  "background_features": 355,
+  "attribution": "© OpenStreetMap contributors",
+  "markers_displaced": false,
+  "visual_reviewed": false,
+  "integrated_into_handbook": false
+}

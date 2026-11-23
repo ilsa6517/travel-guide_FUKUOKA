@@ -1,8 +1,8 @@
 {
   "media_pass": true,
   "counts": {
-    "real_photo": 1,
-    "official_photo": 22,
+    "real_photo": 13,
+    "official_photo": 21,
     "licensed_photo": 3,
     "generated_editorial": 0,
     "illustration": 0,
@@ -12,8 +12,20 @@
   "failures": [],
   "warnings": [
     "low resolution: assets/yusentei-garden.jpg (280x192)",
+    "low resolution: assets/sakurai-shrine.jpg (426x240)",
+    "low resolution: assets/dazaifu-monzen.jpg (408x306)",
+    "low resolution: assets/kamado-shrine.jpg (529x298)",
+    "low resolution: assets/dazaifu-tenmangu.jpg (524x298)",
+    "low resolution: assets/ichiran-honten-wagakudan.jpg (408x544)",
+    "low resolution: assets/karatachi-footbath.jpg (408x306)",
     "low resolution: assets/hyotan-sushi-tenjin.jpg (408x544)",
     "low resolution: assets/toriden-hakata-honten.jpg (240x240)",
-    "low resolution: assets/shinshin-tenjin.jpg (360x245)"
+    "low resolution: assets/shinshin-tenjin.jpg (360x245)",
+    "low resolution: assets/akachokobe-udon.jpg (408x307)",
+    "low resolution: assets/itoshima-seafood-hall.jpg (408x306)",
+    "low resolution: assets/mataichi-salt-pudding.jpg (408x272)",
+    "low resolution: assets/robata-sanko-bashi.jpg (408x306)",
+    "low resolution: assets/mokkei.jpg (408x306)",
+    "low resolution: assets/motoyoshiya-okinahata.jpg (408x307)"
   ]
 }
